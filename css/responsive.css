@@ -194,11 +194,19 @@ header nav .login_btn:hover{
 
 
 
+.paypalform {
+text-align:center;
+padding:10px;
 
-
-
-
-
+ }
+ 
+ .center{
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:80%;
+  
+ }
 
 
 /*  Hero Section  */
@@ -220,7 +228,7 @@ body#about .hero{
 	 width: 100%;
     height: 600px;
     position: relative;
-	background: url('../img/product/full/38.jpg') no-repeat bottom center;
+	background: url('../img/product/full/038.jpg') no-repeat bottom center;
 	 background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -243,7 +251,7 @@ body#product .hero{
 	 width: 100%;
     height: 600px;
     position: relative;
-	background: url('../img/product/full/40.jpg') no-repeat bottom center;
+	background: url('../img/product/full/040.jpg') no-repeat bottom center;
 	 background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -364,7 +372,7 @@ body#zchair .hero{
 	 width: 100%;
     height: 600px;
     position: relative;
-	background: url('../img/chair/home.jpg') no-repeat bottom center;
+	background: url('../img/chair/18.jpg') no-repeat bottom center;
 	 background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -631,6 +639,7 @@ overflow:hidden;
 padding-left:10px;
 padding-right:10px;
 padding-bottom:10px;
+
 }
 
 
@@ -639,6 +648,7 @@ display: block;
     margin-left: auto;
     margin-right: auto;
     width:50%;
+  
 }
 
 #link{
