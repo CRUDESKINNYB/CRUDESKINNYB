@@ -474,6 +474,7 @@ body .hero{height: 500px;} /* Targets all headers images*/
 }
 
 
+/* 
 .listings ul.properties_list li .price{
     position: absolute;
     top: 10px;
@@ -491,6 +492,7 @@ body .hero{height: 500px;} /* Targets all headers images*/
     -moz-border-radius: 2px;
     -o-border-radius: 2px;
 }
+ */
 
 
 .listings ul.properties_list li:nth-child(3n+0){
