@@ -208,7 +208,25 @@ display: block;
   
  }
 
+.sold{
 
+width:100%;
+height:40px;
+background-color: red;
+margin-left: auto;
+margin-right: auto;
+background: #00ccff; /* Product colour */
+margin-bottom:50px;
+}
+
+
+.solditems{
+text-align:center;
+color:white;
+padding-top:11px;
+font-size:20px;
+
+}
 /*  Hero Section  */
 
 
@@ -228,7 +246,7 @@ body#about .hero{
 
    
     position: relative;
-	background: url('../img/product/full/038.jpg') no-repeat bottom center;
+	background: url('../img/product/productimg/038.jpg') no-repeat bottom center;
 	 background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -240,7 +258,21 @@ body# .hero{
 
    
     position: relative;
-	background: url('../img/product/boards/01.jpg') no-repeat bottom center;
+	background: url('../img/product/topimg/01.jpg') no-repeat bottom center;
+	 background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+/* ........................................z chair..................................................*/
+
+
+body#zchair .hero{ 
+
+    
+    position: relative;
+	background: url('../img/chair/18.jpg') no-repeat bottom center;
 	 background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -251,7 +283,7 @@ body#product .hero{
 
    
     position: relative;
-	background: url('../img/product/full/040.jpg') no-repeat bottom center;
+	background: url('../img/product/productimg/040.jpg') no-repeat bottom center;
 	 background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -262,7 +294,7 @@ body#board1 .hero{
 
    
     position: relative;
-	background: url('../img/product/boards/01.jpg') no-repeat bottom center;
+	background: url('../img/product/topimg/01.jpg') no-repeat bottom center;
 	 background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -273,7 +305,7 @@ body#board2 .hero{
 
    
     position: relative;
-	background: url('../img/product/boards/02.jpg') no-repeat bottom center;
+	background: url('../img/product/topimg/02.jpg') no-repeat bottom center;
 	 background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -284,7 +316,7 @@ body#board3 .hero{
 
    
     position: relative;
-	background: url('../img/product/boards/03.jpg') no-repeat bottom center;
+	background: url('../img/product/topimg/03.jpg') no-repeat bottom center;
 	 background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -295,7 +327,7 @@ body#board4 .hero{
 
    
     position: relative;
-	background: url('../img/product/boards/04.jpg') no-repeat bottom center;
+	background: url('../img/product/topimg/04.jpg') no-repeat bottom center;
 	 background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -306,7 +338,7 @@ body#board5 .hero{
 
    
     position: relative;
-	background: url('../img/product/boards/05.jpg') no-repeat bottom center;
+	background: url('../img/product/topimg/05.jpg') no-repeat bottom center;
 	 background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -317,7 +349,7 @@ body#board6 .hero{
 
    
     position: relative;
-	background: url('../img/product/boards/06.jpg') no-repeat bottom center;
+	background: url('../img/product/topimg/06.jpg') no-repeat bottom center;
 	 background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -328,7 +360,7 @@ body#board7 .hero{
 
    
     position: relative;
-	background: url('../img/product/boards/07.jpg') no-repeat bottom center;
+	background: url('../img/product/topimg/07.jpg') no-repeat bottom center;
 	 background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -339,7 +371,7 @@ body#board8 .hero{
 
    
     position: relative;
-	background: url('../img/product/boards/08.jpg') no-repeat bottom center;
+	background: url('../img/product/topimg/08.jpg') no-repeat bottom center;
 	 background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -350,7 +382,7 @@ body#board9 .hero{
 
    
     position: relative;
-	background: url('../img/product/boards/09.jpg') no-repeat bottom center;
+	background: url('../img/product/topimg/09.jpg') no-repeat bottom center;
 	 background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -361,18 +393,96 @@ body#board10 .hero{
 
    
     position: relative;
-	background: url('../img/product/boards/04.jpg') no-repeat bottom center;
+	background: url('../img/product/topimg/10.jpg') no-repeat bottom center;
 	 background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
 }
-/* ........................................z chair..................................................*/
-body#zchair .hero{ 
 
-    
+/* ........................................Board 11..................................................*/
+body#board11 .hero{ 
+
+   
     position: relative;
-	background: url('../img/chair/18.jpg') no-repeat bottom center;
+	background: url('../img/product/topimg/11.jpg') no-repeat bottom center;
+	 background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+/* ........................................Board 12..................................................*/
+body#board12 .hero{ 
+
+   
+    position: relative;
+	background: url('../img/product/topimg/12.jpg') no-repeat bottom center;
+	 background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+/* ........................................Board 13..................................................*/
+body#board13 .hero{ 
+
+   
+    position: relative;
+	background: url('../img/product/topimg/13.jpg') no-repeat bottom center;
+	 background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+/* ........................................Board 14..................................................*/
+body#board14 .hero{ 
+
+   
+    position: relative;
+	background: url('../img/product/topimg/13.jpg') no-repeat bottom center;
+	 background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+/* ........................................Board 15..................................................*/
+body#board15 .hero{ 
+
+   
+    position: relative;
+	background: url('../img/product/topimg/15.jpg') no-repeat bottom center;
+	 background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+/* ........................................Board 16..................................................*/
+body#board16 .hero{ 
+
+   
+    position: relative;
+	background: url('../img/product/topimg/16.jpg') no-repeat bottom center;
+	 background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+/* ........................................Board 17..................................................*/
+body#board17 .hero{ 
+
+   
+    position: relative;
+	background: url('../img/product/topimg/17.jpg') no-repeat bottom center;
+	 background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+/* ........................................Board 18..................................................*/
+body#board18 .hero{ 
+
+   
+    position: relative;
+	background: url('../img/product/topimg/18.jpg') no-repeat bottom center;
 	 background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -396,7 +506,7 @@ body .hero{height: 500px;} /* Targets all headers images*/
     color: #fff;
     font-family: "p22_corinthia", Helvetica, Arial, sans-serif;
     font-size: 150px;
-    font-weight: light;
+    
     margin: 0;
     position: relative;
     display: block;
@@ -409,7 +519,7 @@ body .hero{height: 500px;} /* Targets all headers images*/
     margin: -30px 0 0 25px;
     left: 1px;
     letter-spacing: 1px;
-    font-weight:light;
+    
 }
 
 
@@ -602,7 +712,7 @@ padding-bottom:10px;
 margin:auto;
 line-height:20px;
 font-size:15px;
-padding-top:-10px;
+/* padding-top:-10px; */
 color:black;
 }
 
@@ -615,8 +725,13 @@ text-align:center;
 line-height:33px;
 padding-left:10px;
 padding-right:10px;
+
 }
 
+.title a{
+
+color: #626262;
+}
 
 
 .box {
@@ -700,6 +815,10 @@ width:100%;
 float:right;
 }
 
+h4{
+font-size: 14px;
+}
+
 /* ............................................................. */
 @media (max-width:1500px){
     .hero{
@@ -726,7 +845,7 @@ width:70%;
 }
 header {height: 75px;} /* Targets menu bar height */
 header .logo{margin-top: 27px;} /* Targets logo position */
-/body .hero{height: 395px;} /* Targets all header image height */ 
+body .hero{height: 395px;} /* Targets all header image height */ 
 .hero .caption{top: 60%;} /* Targets header text height */
 .hero .caption h3{font-size: 18px; margin: -30px 0 0 25px;} /* Targets lower header text positon */
 header a.hamburger{margin-top: 31px;width: 24px;height: 19px;} /* Targets burger position & size */
@@ -747,15 +866,6 @@ header nav ul{margin-top: 29px;} /* navigation height */
 #contactimg img, #aboutimg img {
 width:70%;
 }
-
-header {height: 75px;} /* Targets menu bar height */
-header .logo{margin-top: 27px;} /* Targets logo position */
-/body .hero{height: 395px;} /* Targets all header image height */ 
-.hero .caption{top: 60%;} /* Targets header text height */
-.hero .caption h3{font-size: 18px; margin: -30px 0 0 25px;} /* Targets lower header text positon */
-header a.hamburger{margin-top: 31px;width: 24px;height: 19px;} /* Targets burger position & size */
-header nav ul{margin-top: 29px;} /* navigation height */
-
 
 
 
@@ -1037,4 +1147,3 @@ header{height: 75px;} /* Targets menu bar height */
 header .logo{margin-top: 27px;} /* Targets logo position */
 header a.hamburger{margin-top: 31px;width: 24px;height: 19px;} /* Targets burger position & size */
 
-/* ............................................................. *//* ............................................................. */
