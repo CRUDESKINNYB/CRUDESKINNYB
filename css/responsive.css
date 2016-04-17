@@ -476,6 +476,7 @@ body#board17 .hero{
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    
 }
 /* ........................................Board 18..................................................*/
 body#board18 .hero{ 
@@ -488,6 +489,20 @@ body#board18 .hero{
     -moz-background-size: cover;
     -o-background-size: cover;
 }
+
+/* ........................................Board 19..................................................*/
+body#board19 .hero{ 
+
+   
+    position: relative;
+	background: url('../img/product/topimg/19.jpg') no-repeat bottom center;
+	 background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    
+}
+
 
 body .hero{height: 500px;} /* Targets all headers images*/
 
@@ -561,21 +576,25 @@ body .hero{height: 500px;} /* Targets all headers images*/
 /*  listings section  */
 .listings{
     padding: 40px 0;
+    
 }
 
 .listings ul.properties_list{
     list-style: none;
     overflow: hidden;
+    
 }
 
 .listings ul.properties_list li{
     display: block;
     width: 30.90909090909091%;
-    height: auto;
     position: relative;
     float: left;
     margin: 0 3.636363636363636% 3.636363636363636% 0;
+    height:350px; /* .....................................listing height */
 }
+
+
 
 .listings ul.properties_list li img.property_img{
     width: 100%;
