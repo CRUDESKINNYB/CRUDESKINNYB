@@ -1,0 +1,1321 @@
+@font-face {
+    font-family: 'lato-bold';
+    src: url('../fonts/lato-bold.eot');
+    src: url('../fonts/lato-bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato-bold.woff') format('woff'),
+         url('../fonts/lato-bold.ttf') format('truetype'),
+         url('../fonts/lato-bold.svg#LatoBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'lato-regular';
+    src: url('../fonts/lato-regular.eot');
+    src: url('../fonts/lato-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato-regular.woff') format('woff'),
+         url('../fonts/lato-regular.ttf') format('truetype'),
+         url('../fonts/lato-regular.svg#LatRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'p22_corinthia';
+    src: url('../fonts/p22_corinthia.eot');
+    src: url('../fonts/p22_corinthia.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/p22_corinthia.woff') format('woff'),
+         url('../fonts/p22_corinthia.ttf') format('truetype'),
+         url('../fonts/p22_corinthia.svg#P22Corinthia') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    
+
+    
+}
+
+@font-face {
+    font-family: 'p22_corinthia';
+    src: url('../fonts/p22_corinthia.eot');
+    src: url('../fonts/p22_corinthia.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/p22_corinthia.woff') format('woff'),
+         url('../fonts/p22_corinthia.ttf') format('truetype'),
+         url('../fonts/p22_corinthia.svg#P22Corinthia') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    
+
+   
+}
+/* .......................................css reset .......................................*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+
+/* .......................................css reset .......................................*/
+
+/* ...................................... hover effects......................................... */	
+.fa-cube{
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.fa-cube:hover, .fa-cube:focus, .fa-cube:active {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+}	
+
+.fa-gift{
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+ 
+}
+.fa-gift:hover, .fa-gift:focus, .fa-gift:active {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+.fa-envelope{
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.fa-envelope:hover, .fa-envelope:focus, .fa-envelope:active {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+.fa-arrows-h {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.fa-arrows-h:hover, .fa-arrows-h:focus, .fa-arrows-h:active {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+.fa-tree{
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.fa-tree:hover, .fa-tree:focus, .fa-tree:active {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+.fa-gbp{
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.fa-gbp:hover, .fa-gbp:focus, .fa-gbp:active {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+.fa-tint{
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.fa-tint:hover, .fa-tint:focus, .fa-tint:active {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+.fa-cutlery{
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.fa-cutlery:hover, .fa-cutlery:focus, .fa-cutlery:active {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+}
+#backtop{
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+#backtop:hover, #backtop:focus, #backtop:active {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+/* ...................................... hover effects......................................... */
+/* ...................................... Back to top......................................... */		
+
+#backtop{
+	background-color:#1eb3fe;
+	text-align:center;
+	padding:20px;
+	width:20px;
+	margin:auto;
+	cursor:pointer;
+	margin-top:40px;
+	color:white;
+
+}
+/* ......................................  Back to top......................................... */	
+/* .......................................css Body .......................................*/
+
+
+
+
+html, body{
+	font-family: 'lato-regular', sans-serif;
+	background:#ffffff;
+	margin:0;
+	padding:0;
+}
+
+
+h2,h3,h4,h5,h6{
+	font-family: 'lato-regular', sans-serif;
+	margin:0;
+	letter-spacing: 1px;
+}
+	
+h1{
+	font-family: 'p22_corinthia', sans-serif;
+	font-weight:100;
+	margin:0;
+}
+
+body a{
+	text-decoration:none;
+	color:white;
+}
+/* .......................................css Body .......................................*/
+/* .......................................css Header .......................................*/
+
+.header-holder{
+	width:100%
+}
+
+
+.header{
+	background: url(../images/boardslong.jpg);
+    background-repeat: no-repeat;
+	border-bottom: 15px solid #18c1ff;
+    background-size: cover;
+    width: 100%;
+    height: 0;
+    padding-top:40.64%;
+}
+
+
+#home-page .header{
+	background: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+	border-bottom: 15px solid #18c1ff;
+    background-size: cover;
+    width: 100%;
+    height: 0;
+    padding-top:40.64%;
+}
+
+#boards-page .header{
+	background: url(../images/boardslong.jpg);
+    background-repeat: no-repeat;
+	border-bottom: 15px solid #18c1ff;
+    background-size: cover;
+    width: 100%;
+    height: 0;
+    padding-top:40.64%;
+}
+
+#furniture-page .header, #zchair02 .header, #zchair01 .header{
+	background: url(../images/furniturelong.jpg);
+    background-repeat: no-repeat;
+	border-bottom: 15px solid #18c1ff;
+    background-size: cover;
+    width: 100%;
+    height: 0;
+    padding-top:40.64%;
+}
+/* .....................................chair image..................................... */
+#zchair01 .header{
+	background: url(../images/furniturelong2.jpg);
+    background-repeat: no-repeat;
+	border-bottom: 15px solid #18c1ff;
+    background-size: cover;
+    width: 100%;
+    height: 0;
+    padding-top:40.64%;
+}
+/* .....................................chair image..................................... */
+
+#watchbox-page .header{
+	background: url(../images/watchlong.jpg);
+    background-repeat: no-repeat;
+	border-bottom: 15px solid #18c1ff;
+    background-size: cover;
+    width: 100%;
+    height: 0;
+    padding-top:40.64%;
+}
+
+#accessories-page .header{
+	background: url(../images/accessories.jpg);
+    background-repeat: no-repeat;
+	border-bottom: 15px solid #18c1ff;
+    background-size: cover;
+    width: 100%;
+    height: 0;
+    padding-top:40.64%;
+}
+
+#contact-page .header{
+	background: url(../images/me1.jpg);
+    background-repeat: no-repeat;
+	border-bottom: 15px solid #18c1ff;
+    background-size: cover;
+    width: 100%;
+    height: 0;
+    padding-top:40.64%;
+}
+#contact-page .banner{
+	color: grey;
+
+}
+
+
+.navbar{
+	width:100%;
+	background-color:rgba(0, 0, 0, 0.3);
+	font-size:1em;
+}
+
+
+.navigation ul{
+	float:left;
+	text-align:right;
+	width:100%;
+	margin:auto;	
+	padding-left:0px;
+	padding-right:0px;
+	padding-top:15px;
+	padding-bottom:10px;
+	
+}
+
+
+.navbar li{
+	display: inline;
+	margin-right:30px;	
+}
+
+#skinner a{
+	font-family:Raleway;
+	font-weight:100;
+	font-size:1.5em;
+	float:left;
+	vertical-align:center;
+	margin-top:-5px;
+	padding-left:10px;
+}
+
+
+#basket{
+	border-bottom:1px solid white;
+	overflow:hidden;
+}
+
+
+.banner{
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+    width: 100%;
+	text-align:center;
+	float:left;  
+	margin-top:auto;
+	margin-bottom:auto;
+}
+
+.banner h1{
+margin-top:0.2em;
+	font-weight:100;
+	font-size: 20vw;
+	
+}
+
+.banner h2{
+margin-top:-1em;
+	font-size: 2.4vw;
+}
+
+
+/* .......................................End Header........................................*/
+/* .......................................Footer........................................*/
+footer{
+	margin-top:30px;
+	width:100%;
+	text-align:center;
+}
+
+
+/* .......................................End Footer........................................*/
+/* .......................................Sub NAv......................................... */
+
+.sub-nav-holder{
+
+	max-width:1000px;
+	background-color:#1eb3fe;
+	height:50px;
+	text-align:center;
+	margin:auto;
+	margin-top:20px;
+	
+}
+
+.sub-nav li{
+	text-align:center;
+	display:inline-block;
+	margin:10px;
+	font-family:lato-regular;
+	font-weight:100;
+	font-size:1em;
+	margin-top:15px;
+}
+
+.sub-nav li a{
+	color:white;
+	display:block;	
+}
+
+.sub-nav li a:hover {
+	text-decoration:underline;
+	
+}
+
+.triangle{
+	display:block;
+	float:left;
+	width:30px;
+	padding-left:50%;
+	margin-left:-15px;
+/* 	visibility:hidden; */
+}
+
+
+/* .......................................products......................................... */
+
+.products{
+	text-align: center;	
+	margin-top:25px;
+	max-width:1200px;
+	margin:auto;
+	
+}
+
+.product{
+	width: 300px;
+    height:300px;
+    margin:25px;
+    display:inline-block;
+    vertical-align: text-top;	
+}
+
+.holder{
+    padding: 0 0 20px 0;	
+    
+}
+
+.products img{
+	max-width:100%;
+	max-height:100%;
+	
+	
+}
+
+
+.holder_border {
+   border: solid #efeded;
+   border-width: 0px 1px 1px 1px;
+   margin-top:-2px;
+   padding-top:4px;
+   padding-bottom:4px;  
+   text-align: left;
+   
+  
+   
+}
+
+.product h3{
+	font-size:16px;
+	padding-left:10px;
+	padding-top:10px;
+	margin-bottom:10px;
+	color:#535151;
+	font-family: 'Montserrat', sans-serif;
+	line-height:20px;
+	
+}
+
+
+.product h4{
+	font-size:13px;
+	padding-bottom:10px;
+	padding-left:10px;
+	color:#7f7f7f;
+	font-family: 'Montserrat', sans-serif;
+	
+}
+
+.sold{
+	width:77%;
+	height:30px;
+	background-color:#18c1ff;
+	margin:auto;
+	padding-top:10px;
+	color:white;
+	margin-top:70px;
+	margin-bottom:70px;
+	font-size:20px;
+	text-align:center;
+}
+.copyright{
+	margin:auto;
+	padding-top:10px;
+	color:black;
+	margin-top:70px;
+	margin-bottom:70px;
+	font-size:14px;
+	text-align:center;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+.product .purchased{
+	
+	position:absolute;
+	margin-top:-50px;
+	margin-right:5px;
+	color:#7f7f7f;
+	font-size:20px;
+	width:65px;
+	background-color:white;
+	padding-top:6px;
+	padding-left:8px;
+	height:15px;
+	margin-left:-1px;
+}
+
+
+/* .......................................Products End......................................... */
+/* .......................................Product Single......................................... */
+
+
+.imgcontainer{
+	margin:auto;
+	width:90%;
+	max-width:1100px;
+	text-align:center;
+	margin-top:30px;
+	margin-bottom:30px;
+
+}
+
+.imgwrap{
+	display:inline-block;
+	height:300px;
+	width:500px;
+	overflow:hidden;
+	text-align:center;
+}
+
+.imgwrap img{
+	width:100%;
+	padding:10px;	
+}
+
+	
+#zchair01 .imgwrap:nth-child(19){	
+	height:600px;
+	width:500px;}
+#zchair01 .imgwrap:nth-child(20){	
+	height:600px;
+	width:500px;}
+#zchair01 .imgwrap:nth-child(21){	
+	height:700px;
+	width:500px;}
+#zchair01 .imgwrap:nth-child(22){	
+	height:700px;
+	width:500px;}
+	
+	
+#zchair02 .imgwrap:nth-child(15){	
+	height:700px;
+	width:500px;}
+#zchair02 .imgwrap:nth-child(16){	
+	height:700px;
+	width:500px;}
+
+
+
+
+.aboutboard{
+	margin-top:-2px;
+	text-align:center;
+	padding-top:20px;
+	padding-bottom:20px;
+	background-color:#f2f2f2;
+}
+
+.aboutboard h2{
+	font-size:23px;
+	padding-bottom:20px;
+	height:30px;
+
+}
+
+.aboutboard p{
+	max-width:700px;
+	padding-left:30px;
+	padding-right:30px;
+	margin:auto;
+		margin-top:10px;
+	
+	
+}
+
+#product-number{
+	margin-top:30px;
+}
+
+.paypal{
+	text-align:center;
+	padding-top:50px;	
+	
+}
+
+table{
+	width:100px;
+	margin:auto;
+	margin-top:25px;
+	margin-bottom:25px;
+}
+
+.hvr-grow, .contact-info-block{
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow, .contact-info-block:hover, .hvr-grow, .contact-info-block:focus, .hvr-grow, .contact-info-block:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+
+.paypal {
+
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.paypal:hover, .paypal:focus, .paypal:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+/* .......................................Products Single......................................... */
+/* ...................................... About Page......................................... */
+
+
+		
+.aboutinfo a {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+.aboutinfo a:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #2098d1;
+  -webkit-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.aboutinfo a:hover, .aboutinfo a:focus, .aboutinfo a:active {
+  color: white;
+}
+.aboutinfo a:hover:before, .aboutinfo a:focus:before, .aboutinfo a:active:before {
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
+  -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+  transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+
+.about-banner ul{
+	padding-bottom:30px;
+	padding-top:30px;
+	width:100%;
+	background-color:#f2f2f2;
+	text-align:center;	
+	
+}
+
+.about-banner li{
+	width:20%;
+	/* margin-left:1em; */
+	/* margin-right:1em; */
+	display:inline-block;
+	color:#878787;
+	height:150px;	
+	vertical-align:top;
+	font-size:15px;
+	
+}
+
+		
+.about-banner p{
+	padding-top:15px;
+	height:30px;
+	padding-left:10px;
+	padding-right:10px;	
+}
+
+.fa-gift, .fa-envelope, .fa-arrows-h, .fa-tree, .fa-gbp, .fa-cube, .fa-tint, .fa-cutlery{
+	color:#d7333b;
+	font-size:40px;
+	border-radius:200px;	
+	border:1px solid #d7333b;
+	background-color:#f2f2f2;
+	padding-top:35px;
+	padding-left:15px;
+	padding-right:15px;
+	height:75px;
+	width:50px;
+}
+
+.about-banner .fa-gift,.about-banner .fa-envelope,.about-banner .fa-arrows-h,.about-banner .fa-tree{font-size:40px;}
+
+.about-section{
+	width:100%;
+	margin:auto;
+
+}
+
+.about-section img{
+	width:100%;
+
+	margin-left:auto;
+	margin-right:auto;
+	display: block;
+	margin-top:10px;
+	 position: relative; 
+
+	
+	}
+
+
+	
+
+
+
+
+
+
+
+
+
+
+/* .......................................About end......................................... */
+/* ...................................... Contact......................................... */
+
+/* 
+#contact-background{
+	width:100%;
+	background-color:white;
+	height:100%;
+	float:right;	
+}
+ */
+
+.contact-info{
+	width:100%;
+	text-align:center;
+	max-width:900px;
+	margin:auto;
+	margin-top:30px;
+}
+
+.contact-info-block{
+	
+	width:300px;
+	height:300px;	
+	display:inline-block;
+	border:0px;
+	margin:-2px;
+	padding:0;
+}
+
+
+#block1{
+	background-image: url("../images/about5.jpg");
+	background-size: 300px 300px;
+    background-repeat: no-repeat;
+    
+}
+
+#block1:hover, #block2:hover, #block3:hover, #block4:hover, #block5:hover, #block6:hover, #block7:hover, #block8:hover, #block9:hover{
+position:relative;
+	z-index:100;
+}
+
+#block2{
+	background-color:#ff6666;
+	text-align:center;
+}
+
+#block3{
+
+	background-image: url("../images/about3.jpg");
+}
+
+#block4{
+	background-color:#1eb3fe;
+}
+
+#block5{
+	background-color:green;
+	background-image: url("../images/about2.jpg"); /* mid */
+}
+
+#block6{
+	background-color:#ffcc66;
+	
+}
+
+#block7{
+	background-color:blue;
+	background-image: url("../images/about7.jpg");
+	
+}
+
+#block9{
+	background-color:green;
+	background-image: url("../images/about4.jpg");
+}
+
+#block8{
+	background-color:#00ff80;
+	
+}
+
+#letter, #rss, #location{
+	border:white solid 3px;
+	border-radius:200px;
+	float:left;
+	color:white;
+	padding:20px;
+	font-size:50px;
+	margin-left:80px;
+	margin-top:80px;
+	width:100px;
+}
+
+.contact-info-block h3{
+	float:left;
+	margin:auto;
+	width:100%;
+	text-align:center;
+	color:white;
+	padding-top:25px;
+}
+
+#etsy{
+	float:left;
+	font-family: "Times New Roman", Georgia, Serif;
+	font-size:65px;
+	border:white solid 3px;
+	border-radius:200px;
+	width:120px;
+	padding:10px;
+	margin-left:80px;
+	margin-top:80px;
+	color:white;	
+}
+
+/* ...................................... Contact End......................................... */
+
+/* ...................................... About Pages Start......................................... */
+/* ...................................... About Pages End......................................... */
+
+/* ...................................... Media Queries Start......................................... */
+@media screen and (max-width:1056px) {/* ...................................... 1048 */
+
+/* ...................................... Sub Nav......................................... */
+
+.sub-nav-holder{
+
+	max-width:655px;
+	background-color:#1eb3fe;
+	height:50px;
+	text-align:center;
+	margin:auto;
+	margin-top:20px;
+	
+}
+
+}
+
+@media screen and (max-width:708px) {/* ......................................708 */
+
+.sub-nav-holder{
+	width:100%;
+	
+}
+
+.triangle{
+	display:none;
+}
+
+.underline-option{text-decoration:underline;
+	
+}
+
+.product{
+	width: 500px;
+    height:500px;
+    margin:25px;
+    display:inline-block;
+    vertical-align: text-top;	
+}
+
+}
+
+
+@media screen and (max-width:894px) {/* ...................................... 894 */
+#block9{
+display:none;
+}
+
+}
+
+
+@media screen and (max-width:600px) {/* ...................................... 600 */
+
+/* .......................................sub nav .......................................*/
+.sub-nav-holder{
+	width:100%;
+	max-width:1000px;
+	background-color:#1eb3fe;
+	text-align:center;
+	margin:auto;
+	margin-top:20px;
+	height:75px;
+	
+}
+
+.sub-nav li{
+	text-align:center;
+	display:inline-block;
+	font-family:lato-regular;
+	font-weight:100;
+	font-size:1em;
+	margin-bottom:-10px;
+
+}
+
+
+
+
+.sub-nav li a{
+	color:white;
+	display:block;	
+}
+
+.sub-nav li a:hover {
+	text-decoration:underline;
+}
+
+/* .......................................about banner .......................................*/
+
+.about-banner .fa-gift,.about-banner .fa-envelope,.about-banner .fa-arrows-h,.about-banner .fa-tree{font-size:35px;}
+
+.about-banner ul{
+	padding-bottom:10px;
+	padding-top:20px;
+	
+}
+
+.about-banner li{
+	width:20%;
+	height:140px;	/* height of red bits */
+	font-size:12px; /* caption font size */
+	
+}
+
+		
+.about-banner p{
+	padding-top:15px;
+	height:30px;
+	padding-left:10px;
+	padding-right:10px;	
+}
+
+.fa-gift, .fa-envelope, .fa-arrows-h, .fa-tree, .fa-gbp, .fa-cube, .fa-tint, .fa-cutlery{
+	border-radius:100px;	
+	padding-top:20px;
+	padding-bottom:15px;
+	padding-left:10px;
+	padding-right:10px;
+	height:40px;
+	width:40px;
+}
+	
+/* .......................................css product images .......................................*/
+.product{
+	width: 450px;
+    height:450px;
+    margin:25px;
+    display:inline-block;
+    vertical-align: text-top;	
+}
+
+
+
+}
+
+@media screen and (max-width:519px) {/* ...................................... 519 */
+
+
+
+/* .......................................css product images .......................................*/
+.product{
+	width: 400px;
+    height:400px;
+    margin:25px;
+    display:inline-block;
+    vertical-align: text-top;	
+}
+	
+}
+@media screen and (max-width:499px) {/* ...................................... 499 */
+
+/* .......................................css Header .......................................*/
+.navbar li{
+
+	margin-right:20px;	
+}
+
+
+}
+
+@media screen and (max-width:450px) {/* ...................................... 450 */
+
+/* .......................................css Header .......................................*/
+
+.navbar{
+	width:100%;
+	background-color:rgba(0, 0, 0, 0.3);
+	font-size:1em;
+}
+
+
+.navigation ul{
+	float:left;
+	text-align:center;
+	width:100%;
+	margin:auto;	
+	padding-left:0px;
+	padding-right:0px;
+	padding-top:15px;
+	padding-bottom:10px;
+	
+}
+
+
+.navbar li{
+	margin-right:20px;	
+}
+
+#skinner a{
+	font-family:Raleway;
+	font-weight:100;
+	font-size:1.5em;
+	float:left;
+	vertical-align:center;
+	margin-top:-5px;
+	display:none;
+}
+
+
+
+/* .......................................css product images .......................................*/
+.product{
+	width: 350px;
+    height:350px;
+    margin:25px;
+    display:inline-block;
+    vertical-align: text-top;	
+}
+
+
+}
+
+@media screen and (max-width:400px) {/* ...................................... 400 */
+
+
+/* .......................................css product images .......................................*/
+.product{
+	width: 250px;
+    height:250px;
+    margin:25px;
+    display:inline-block;
+    vertical-align: text-top;	
+}
+/* .......................................css about banner .......................................*/
+
+
+.about-banner ul{
+	padding-bottom:0px;
+	padding-top:20px;
+	
+}
+
+.about-banner li{
+	width:40%;
+	height:140px;	/* height of red bits */
+	font-size:12px; /* caption font size */
+	
+}
+
+	
+
+}
+
+@media screen and (max-width:320px) {/* ...................................... 320 */
+
+/* .......................................nav bar .......................................*/
+
+.navbar{
+	width:100%;
+	background-color:rgba(0, 0, 0, 0.3);
+	font-size:0.8em;
+}
+
+.navbar li{
+
+	margin-right:5px;	
+}
+
+/* .......................................css about-banner .......................................*/
+
+
+	
+
+/* .......................................sub nav .......................................*/
+.sub-nav-holder{
+	width:100%;
+	max-width:1000px;
+	background-color:#1eb3fe;
+	text-align:center;
+	margin:auto;
+	margin-top:20px;
+	height:110px;
+	
+}
+
+.sub-nav li{
+	text-align:center;
+	display:inline-block;
+	font-family:lato-regular;
+	font-weight:100;
+	font-size:1em;
+	margin-bottom:-10px;
+
+}
+
+
+
+
+.sub-nav li a{
+	color:white;
+	display:block;	
+}
+
+.sub-nav li a:hover {
+	text-decoration:underline;
+}
+
+}
+
+
+
+
+
+/* ...................................... Media Queries End......................................... */
+
