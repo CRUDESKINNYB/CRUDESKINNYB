@@ -77,6 +77,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 	
+	
 }
 ol, ul {
 	list-style: none;
@@ -298,6 +299,8 @@ html, body{
 	background:#ffffff;
 	margin:0;
 	padding:0;
+	background-color:#f2f2f2; /* background color */
+	
 }
 
 
@@ -320,10 +323,18 @@ body a{
 /* .......................................css Body .......................................*/
 /* .......................................css Header .......................................*/
 
-.header-holder{
-	width:100%
+.max-width-view {
+	max-width:1000px;
+	margin:auto;
+
+
 }
 
+.header-holder{
+	width:100%
+	
+	
+}
 
 .header{
 	background: url(../images/boardslong.jpg);
@@ -333,79 +344,63 @@ body a{
     width: 100%;
     height: 0;
     padding-top:40.64%;
+    
 }
 
 
 #home-page .header{
 	background: url(../images/banner.jpg);
-    background-repeat: no-repeat;
-	border-bottom: 15px solid #18c1ff;
-    background-size: cover;
-    width: 100%;
-    height: 0;
-    padding-top:40.64%;
+	background-size: cover;
 }
 
 #boards-page .header{
 	background: url(../images/boardslong.jpg);
-    background-repeat: no-repeat;
-	border-bottom: 15px solid #18c1ff;
-    background-size: cover;
-    width: 100%;
-    height: 0;
-    padding-top:40.64%;
+	background-size: cover;
 }
 
 #furniture-page .header, #zchair02 .header, #zchair01 .header{
 	background: url(../images/furniturelong.jpg);
-    background-repeat: no-repeat;
-	border-bottom: 15px solid #18c1ff;
     background-size: cover;
-    width: 100%;
-    height: 0;
-    padding-top:40.64%;
+
 }
-/* .....................................chair image..................................... */
+
 #zchair01 .header{
 	background: url(../images/furniturelong2.jpg);
-    background-repeat: no-repeat;
-	border-bottom: 15px solid #18c1ff;
     background-size: cover;
-    width: 100%;
-    height: 0;
-    padding-top:40.64%;
 }
-/* .....................................chair image..................................... */
 
 #watchbox-page .header{
 	background: url(../images/watchlong.jpg);
-    background-repeat: no-repeat;
-	border-bottom: 15px solid #18c1ff;
-    background-size: cover;
-    width: 100%;
-    height: 0;
-    padding-top:40.64%;
+	background-size: cover;
 }
 
 #accessories-page .header{
 	background: url(../images/accessories.jpg);
-    background-repeat: no-repeat;
-	border-bottom: 15px solid #18c1ff;
+	 background-size: cover;
+}
+
+#contact-page .header{
+	background: url(../images/me1.jpg);
     background-size: cover;
+}
+
+
+#home-page .header, #boards-page .header, #zchair01 .header, #watchbox-page .header, #accessories-page .header{
+    background-repeat: no-repeat;
+	border-bottom: 10px solid #18c1ff;
     width: 100%;
     height: 0;
     padding-top:40.64%;
 }
 
-#contact-page .header{
-	background: url(../images/me1.jpg);
+#home-page .header, #boards-page .header, #zchair01 .header, #watchbox-page .header, #accessories-page .header{
     background-repeat: no-repeat;
-	border-bottom: 15px solid #18c1ff;
-    background-size: cover;
+	border-bottom: 10px solid #18c1ff;
     width: 100%;
     height: 0;
     padding-top:40.64%;
 }
+
 #contact-page .banner{
 	color: grey;
 
@@ -437,6 +432,12 @@ body a{
 	margin-right:30px;	
 }
 
+#paypal-basket{
+margin-top:-20px;	
+margin-right:10px;
+height:0px;
+}
+
 #skinner a{
 	font-family:Raleway;
 	font-weight:100;
@@ -466,15 +467,15 @@ body a{
 }
 
 .banner h1{
-margin-top:0.2em;
+margin-top:0.3em;
 	font-weight:100;
-	font-size: 20vw;
+	font-size: calc(170px + 3vw);
 	
 }
 
 .banner h2{
-margin-top:-1em;
-	font-size: 2.4vw;
+margin-top:-2em;
+	font-size: calc(20px + 0.3vw);
 }
 
 
@@ -491,14 +492,12 @@ footer{
 /* .......................................Sub NAv......................................... */
 
 .sub-nav-holder{
-
 	max-width:1000px;
 	background-color:#1eb3fe;
 	height:50px;
 	text-align:center;
 	margin:auto;
 	margin-top:20px;
-	
 }
 
 .sub-nav li{
@@ -527,6 +526,7 @@ footer{
 	width:30px;
 	padding-left:50%;
 	margin-left:-15px;
+
 /* 	visibility:hidden; */
 }
 
@@ -539,6 +539,7 @@ footer{
 	max-width:1200px;
 	margin:auto;
 	
+	
 }
 
 .product{
@@ -547,6 +548,7 @@ footer{
     margin:25px;
     display:inline-block;
     vertical-align: text-top;	
+    
 }
 
 .holder{
@@ -557,18 +559,20 @@ footer{
 .products img{
 	max-width:100%;
 	max-height:100%;
+	box-shadow: 0px 0px 2px #ccc;
 	
 	
 }
 
 
 .holder_border {
-   border: solid #efeded;
-   border-width: 0px 1px 1px 1px;
+
    margin-top:-2px;
    padding-top:4px;
    padding-bottom:4px;  
    text-align: left;
+   background-color:white;
+   	box-shadow: 0px 0px 2px #ccc;
    
   
    
@@ -651,7 +655,7 @@ footer{
 
 .imgwrap{
 	display:inline-block;
-	height:300px;
+	height:100%;
 	width:500px;
 	overflow:hidden;
 	text-align:center;
@@ -880,15 +884,6 @@ table{
 	}
 
 
-	
-
-
-
-
-
-
-
-
 
 
 /* .......................................About end......................................... */
@@ -1014,6 +1009,8 @@ position:relative;
 /* ...................................... About Pages End......................................... */
 
 /* ...................................... Media Queries Start......................................... */
+
+
 @media screen and (max-width:1056px) {/* ...................................... 1048 */
 
 /* ...................................... Sub Nav......................................... */
@@ -1026,8 +1023,34 @@ position:relative;
 	text-align:center;
 	margin:auto;
 	margin-top:20px;
-	
 }
+
+}
+@media screen and (max-width:1000px) {/* ...................................... 1500 */
+.banner h1{
+	margin-top:0.3em;
+	font-size: 20vw;	
+}
+
+.banner h2{
+	margin-top:-2em;
+	font-size: 2.2vw;
+}
+
+
+}
+
+@media screen and (max-width:894px) {/* ...................................... 894 */
+#block9{
+display:none;
+}
+
+}
+
+@media screen and (max-width:750px) {/* ...................................... 600 */
+
+
+
 
 }
 
@@ -1056,50 +1079,19 @@ position:relative;
 
 }
 
+@media screen and (max-width:595px) {/* ......................................643 */
+/* ...................................... Sub Nav......................................... */
 
-@media screen and (max-width:894px) {/* ...................................... 894 */
-#block9{
-display:none;
+.sub-nav-holder{
+	height:90px;
+
 }
-
 }
-
 
 @media screen and (max-width:600px) {/* ...................................... 600 */
 
 /* .......................................sub nav .......................................*/
-.sub-nav-holder{
-	width:100%;
-	max-width:1000px;
-	background-color:#1eb3fe;
-	text-align:center;
-	margin:auto;
-	margin-top:20px;
-	height:75px;
-	
-}
 
-.sub-nav li{
-	text-align:center;
-	display:inline-block;
-	font-family:lato-regular;
-	font-weight:100;
-	font-size:1em;
-	margin-bottom:-10px;
-
-}
-
-
-
-
-.sub-nav li a{
-	color:white;
-	display:block;	
-}
-
-.sub-nav li a:hover {
-	text-decoration:underline;
-}
 
 /* .......................................about banner .......................................*/
 
@@ -1146,6 +1138,11 @@ display:none;
 }
 
 
+.imgwrap{
+	height:100%;
+	width:90%;
+}
+
 
 }
 
@@ -1168,8 +1165,9 @@ display:none;
 /* .......................................css Header .......................................*/
 .navbar li{
 
-	margin-right:20px;	
+	margin-right:30px;	
 }
+
 
 
 }
@@ -1212,7 +1210,32 @@ display:none;
 	display:none;
 }
 
+#paypal-basket{
+margin-top:-20px;	
+margin-right:10px;
+height:25px;
+	text-align:right;
+}
 
+#home-page .header, #boards-page .header, #zchair01 .header, #watchbox-page .header, #accessories-page .header{
+    background-repeat: no-repeat;
+	border-bottom: 10px solid #18c1ff;
+    width: 100%;
+    height: 0;
+    padding-top:132.64%;
+}
+
+/* .......................................skinner banner .......................................*/
+
+.banner h1{
+	margin-top:0.5em;
+	font-size: 35vw;	
+}
+
+.banner h2{
+	margin-top:-1em;
+	font-size: 4.6vw;
+}
 
 /* .......................................css product images .......................................*/
 .product{
@@ -1240,20 +1263,67 @@ display:none;
 /* .......................................css about banner .......................................*/
 
 
-.about-banner ul{
-	padding-bottom:0px;
-	padding-top:20px;
+.about-banner ul li p{
+	font-size:10px;
+	display:none;
+}
+.about-banner{
+	height:100px;
+	display:none;
+}
+
+/* .......................................header .......................................*/
+#home-page .header{
+	background: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+	border-bottom: 15px solid #18c1ff;
+    background-size: cover;
+    width: 100%;
+    height: 0;
+    padding-top:175.64%;
+}
+	
+/* .......................................skinner banner .......................................*/
+
+.banner h1{
+	margin-top:0.5em;
+	font-size: 30vw;	
+}
+
+.banner h2{
+	font-size: 4.4vw;
+}
+
+/* .......................................sub nav .......................................*/
+.sub-nav-holder{
+	width:100%;
+	max-width:1000px;
+	background-color:#1eb3fe;
+	text-align:center;
+	margin:auto;
+	margin-top:-20px;
+	height:75px;
 	
 }
 
-.about-banner li{
-	width:40%;
-	height:140px;	/* height of red bits */
-	font-size:12px; /* caption font size */
-	
+.sub-nav li{
+	text-align:center;
+	display:inline-block;
+	font-family:lato-regular;
+	font-weight:100;
+	font-size:1em;
+	margin-bottom:-10px;
+
 }
 
-	
+.sub-nav li a{
+	color:white;
+	display:block;	
+}
+
+.sub-nav li a:hover {
+	text-decoration:underline;
+}	
 
 }
 
@@ -1272,30 +1342,23 @@ display:none;
 	margin-right:5px;	
 }
 
-/* .......................................css about-banner .......................................*/
 
-
-	
 
 /* .......................................sub nav .......................................*/
 .sub-nav-holder{
-	width:100%;
-	max-width:1000px;
-	background-color:#1eb3fe;
-	text-align:center;
-	margin:auto;
-	margin-top:20px;
-	height:110px;
+	margin-top:-30px;
+	height:140px;
 	
 }
 
 .sub-nav li{
 	text-align:center;
-	display:inline-block;
+	display:block;
 	font-family:lato-regular;
 	font-weight:100;
 	font-size:1em;
 	margin-bottom:-10px;
+	padding-top:6px;
 
 }
 
