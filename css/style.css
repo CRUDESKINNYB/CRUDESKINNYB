@@ -437,12 +437,6 @@ body a{
 	margin-right:30px;	
 }
 
-#paypal-basket{
-margin-top:-20px;	
-margin-right:10px;
-height:0px;
-}
-
 #skinner a{
 	font-family:Raleway;
 	font-weight:100;
@@ -1174,9 +1168,8 @@ display:none;
 /* .......................................css Header .......................................*/
 .navbar li{
 
-	margin-right:30px;	
+	margin-right:20px;	
 }
-
 
 
 }
@@ -1217,13 +1210,6 @@ display:none;
 	vertical-align:center;
 	margin-top:-5px;
 	display:none;
-}
-
-#paypal-basket{
-margin-top:-20px;	
-margin-right:10px;
-height:25px;
-	text-align:right;
 }
 
 
