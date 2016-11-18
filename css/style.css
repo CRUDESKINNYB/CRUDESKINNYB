@@ -338,7 +338,7 @@ body a{
 .header{
 	background: url(../images/boardslong.jpg);
     background-repeat: no-repeat;
-	border-bottom: 15px solid #18c1ff;
+	border-bottom: 10px solid #18c1ff;
     background-size: cover;
     width: 100%;
     height: 0;
@@ -377,20 +377,22 @@ body a{
 }
 
 #contact-page .header{
-	background: url(../images/me1.jpg);
+	background: url(../images/me3.jpg);
     background-size: cover;
 }
 
-#home-page .header, #boards-page .header, #zchair01 .header, #watchbox-page .header, #accessories-page .header{
+#oboard-page .header{
+	background: url(../images/onionlong.jpg);
+    background-size: cover;
+}
+
+#home-page .header, #boards-page .header, #zchair01 .header, #watchbox-page .header, #accessories-page .header, #oboard-page .header, #furniture-page .header{
     background-repeat: no-repeat;
-	border-bottom: 10px solid #18c1ff;
     width: 100%;
     height: 0;
     padding-top:40.64%;
 }
  
-
-
 
 
 
@@ -467,7 +469,7 @@ margin-top:0.3em;
 }
 
 .banner h2{
-margin-top:-2em;
+margin-top:-1em;
 	font-size: calc(20px + 0.3vw);
 }
 
@@ -487,7 +489,6 @@ footer{
 .sub-nav-holder{
 	max-width:1000px;
 	background-color:#1eb3fe;
-	height:50px;
 	text-align:center;
 	margin:auto;
 	margin-top:20px;
@@ -500,15 +501,21 @@ footer{
 	font-family:lato-regular;
 	font-weight:100;
 	font-size:1em;
-	margin-top:15px;
+	height:20px;
 }
 
 .sub-nav li a{
 	color:white;
 	display:block;	
+
+
 }
 
 .sub-nav li a:hover {
+	text-decoration:underline;
+	
+}
+.sub-nav li a:active   {
 	text-decoration:underline;
 	
 }
@@ -519,8 +526,9 @@ footer{
 	width:30px;
 	padding-left:50%;
 	margin-left:-15px;
+	margin-top:3px;
+	/*display:none;*/
 
-/* 	visibility:hidden; */
 }
 
 
@@ -890,30 +898,37 @@ table{
 	float:right;	
 }
  */
+#contact-background{width:100%;}
 
 .contact-info{
 	width:100%;
 	text-align:center;
-	max-width:900px;
+	max-width:1000px;
 	margin:auto;
 	margin-top:30px;
+	overflow:hidden;
+	padding-bottom:20px;
 }
 
 .contact-info-block{
 	
-	width:300px;
-	height:300px;	
+	width:333px;
+	height:333px;	
 	display:inline-block;
 	border:0px;
 	margin:-2px;
 	padding:0;
 }
 
+#block1, #block3, #block5, #block7{
+	background-size: 333px 333px;
+    background-repeat: no-repeat;
+
+}
 
 #block1{
 	background-image: url("../images/about5.jpg");
-	background-size: 300px 300px;
-    background-repeat: no-repeat;
+
     
 }
 
@@ -930,6 +945,7 @@ position:relative;
 #block3{
 
 	background-image: url("../images/about3.jpg");
+
 }
 
 #block4{
@@ -939,6 +955,7 @@ position:relative;
 #block5{
 	background-color:green;
 	background-image: url("../images/about2.jpg"); /* mid */
+
 }
 
 #block6{
@@ -949,6 +966,7 @@ position:relative;
 #block7{
 	background-color:blue;
 	background-image: url("../images/about7.jpg");
+
 	
 }
 
@@ -959,6 +977,12 @@ position:relative;
 
 #block8{
 	background-color:#00ff80;
+	
+}
+
+#block1, #block3, #block5, #block7, #block9{
+	background-size: 333px 333px;
+    background-repeat: no-repeat;
 	
 }
 
@@ -1008,15 +1032,7 @@ position:relative;
 
 /* ...................................... Sub Nav......................................... */
 
-.sub-nav-holder{
 
-	max-width:655px;
-	background-color:#1eb3fe;
-	height:50px;
-	text-align:center;
-	margin:auto;
-	margin-top:20px;
-}
 
 }
 @media screen and (max-width:1000px) {/* ...................................... 1500 */
@@ -1026,14 +1042,14 @@ position:relative;
 }
 
 .banner h2{
-	margin-top:-2em;
+	margin-top:-1em;
 	font-size: 2.2vw;
 }
 
 
 }
 
-@media screen and (max-width:894px) {/* ...................................... 894 */
+@media screen and (max-width:1010px) {/* ...................................... 894 */
 #block9{
 display:none;
 }
@@ -1049,10 +1065,7 @@ display:none;
 
 @media screen and (max-width:708px) {/* ......................................708 */
 
-.sub-nav-holder{
-	width:100%;
-	
-}
+
 
 .triangle{
 	display:none;
@@ -1070,15 +1083,16 @@ display:none;
     vertical-align: text-top;	
 }
 
+
+
 }
 
 @media screen and (max-width:595px) {/* ......................................643 */
 /* ...................................... Sub Nav......................................... */
 
-.sub-nav-holder{
-	height:90px;
 
-}
+
+
 }
 
 @media screen and (max-width:600px) {/* ...................................... 600 */
@@ -1135,6 +1149,8 @@ display:none;
 	height:100%;
 	width:90%;
 }
+
+/* .......................................skinner banner .......................................*/
 
 
 }
@@ -1210,7 +1226,7 @@ height:25px;
 	text-align:right;
 }
 
-#home-page .header, #boards-page .header, #zchair01 .header, #watchbox-page .header, #accessories-page .header{
+#home-page .header, #boards-page .header, #zchair01 .header, #watchbox-page .header, #accessories-page .header, #oboard-page .header, #furniture-page .header{
     background-repeat: no-repeat;
 	border-bottom: 10px solid #18c1ff;
     width: 100%;
@@ -1239,6 +1255,12 @@ height:25px;
     vertical-align: text-top;	
 }
 
+#contact-page .header, #about-page .header{
+    padding-top:132.64%;
+}
+
+
+
 
 }
 
@@ -1266,12 +1288,9 @@ height:25px;
 }
 
 /* .......................................header .......................................*/
-#home-page .header{
-	background: url(../images/banner.jpg);
-    background-repeat: no-repeat;
-	border-bottom: 15px solid #18c1ff;
-    background-size: cover;
-    width: 100%;
+
+
+#home-page .header, #boards-page .header, #zchair01 .header, #watchbox-page .header, #accessories-page .header, #contact-page .header, #oboard-page .header, #furniture-page .header{
     height: 0;
     padding-top:175.64%;
 }
@@ -1288,35 +1307,7 @@ height:25px;
 }
 
 /* .......................................sub nav .......................................*/
-.sub-nav-holder{
-	width:100%;
-	max-width:1000px;
-	background-color:#1eb3fe;
-	text-align:center;
-	margin:auto;
-	margin-top:-20px;
-	height:75px;
 	
-}
-
-.sub-nav li{
-	text-align:center;
-	display:inline-block;
-	font-family:lato-regular;
-	font-weight:100;
-	font-size:1em;
-	margin-bottom:-10px;
-
-}
-
-.sub-nav li a{
-	color:white;
-	display:block;	
-}
-
-.sub-nav li a:hover {
-	text-decoration:underline;
-}	
 
 }
 
@@ -1337,35 +1328,7 @@ height:25px;
 
 
 
-/* .......................................sub nav .......................................*/
-.sub-nav-holder{
-	margin-top:-30px;
-	height:140px;
-	
-}
 
-.sub-nav li{
-	text-align:center;
-	display:block;
-	font-family:lato-regular;
-	font-weight:100;
-	font-size:1em;
-	margin-bottom:-10px;
-	padding-top:6px;
-
-}
-
-
-
-
-.sub-nav li a{
-	color:white;
-	display:block;	
-}
-
-.sub-nav li a:hover {
-	text-decoration:underline;
-}
 
 }
 
