@@ -324,7 +324,7 @@ body a{
 /* .......................................css Header .......................................*/
 
 .max-width-view{
-	max-width:1000px;
+	max-width:1024px;
 	margin:auto;
 
 }
@@ -335,6 +335,7 @@ body a{
 	
 }
 
+/* 
 .header{
 	background: url(../images/boardslong.jpg);
     background-repeat: no-repeat;
@@ -343,6 +344,20 @@ body a{
     width: 100%;
     height: 0;
     padding-top:40.64%;
+}
+ */
+ 
+#home-page .header, #boards-page .header, #zchair01 .header, #watchbox-page .header, #accessories-page .header, #oboard-page .header, #furniture-page .header, #about-page .header, #contact-page .header{
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 0;
+    padding-top:40.64%;
+    border-bottom: 10px solid #18c1ff;
+}
+ 
+#about-page .header{
+	background: url(../images/banner.jpg);
+    background-size: cover;
 }
 
 #home-page .header{
@@ -376,23 +391,21 @@ body a{
 	 background-size: cover;
 }
 
+
+/* 
 #contact-page .header{
 	background: url(../images/me3.jpg);
     background-size: cover;
 }
+ */
+
 
 #oboard-page .header{
 	background: url(../images/onionlong.jpg);
     background-size: cover;
 }
 
-#home-page .header, #boards-page .header, #zchair01 .header, #watchbox-page .header, #accessories-page .header, #oboard-page .header, #furniture-page .header{
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 0;
-    padding-top:40.64%;
-}
- 
+
 
 
 
@@ -864,7 +877,7 @@ table{
 	width:50px;
 }
 
-.about-banner .fa-gift,.about-banner .fa-envelope,.about-banner .fa-arrows-h,.about-banner .fa-tree{font-size:40px;}
+.about-banner .fa-gift, .about-banner .fa-envelope, .about-banner .fa-arrows-h, .about-banner .fa-tree, .about-banner .fa-cube, .about-banner .fa-gbp{font-size:40px;}
 
 .about-section{
 	width:100%;
@@ -1105,7 +1118,8 @@ display:none;
 .about-banner .fa-gift,.about-banner .fa-envelope,.about-banner .fa-arrows-h,.about-banner .fa-tree{font-size:35px;}
 
 .about-banner ul{
-	padding-bottom:10px;
+margin-bottom:-20px;
+	padding-bottom:0px;
 	padding-top:20px;
 	
 }
@@ -1114,13 +1128,10 @@ display:none;
 	width:20%;
 	height:140px;	/* height of red bits */
 	font-size:12px; /* caption font size */
-	
 }
-
 		
 .about-banner p{
 	padding-top:15px;
-	height:30px;
 	padding-left:10px;
 	padding-right:10px;	
 }
@@ -1180,10 +1191,22 @@ display:none;
 
 
 }
+@media screen and (min-width:451px) {/* ...................................... 450 */
+
+#contact-page .header{
+	background: url(../images/me3.jpg);
+    background-size: cover;
+}
+}
 
 @media screen and (max-width:450px) {/* ...................................... 450 */
 
 /* .......................................css Header .......................................*/
+
+#contact-page .header{
+	background: url(../images/me3mobile.jpg);
+    background-size: cover;
+}
 
 .navbar{
 	width:100%;
@@ -1226,13 +1249,13 @@ height:25px;
 	text-align:right;
 }
 
-#home-page .header, #boards-page .header, #zchair01 .header, #watchbox-page .header, #accessories-page .header, #oboard-page .header, #furniture-page .header{
-    background-repeat: no-repeat;
-	border-bottom: 10px solid #18c1ff;
-    width: 100%;
-    height: 0;
+#home-page .header, #boards-page .header, #zchair01 .header, #watchbox-page .header, #accessories-page .header, #oboard-page .header, #furniture-page .header, #contact-page .header, #about-page .header{
     padding-top:132.64%;
 }
+
+
+
+
 
 /* .......................................skinner banner .......................................*/
 
@@ -1255,8 +1278,8 @@ height:25px;
     vertical-align: text-top;	
 }
 
-#contact-page .header, #about-page .header{
-    padding-top:132.64%;
+#contact-page .header{
+    padding-top:178.64%;
 }
 
 
@@ -1280,11 +1303,13 @@ height:25px;
 
 .about-banner ul li p{
 	font-size:10px;
-	display:none;
+
+
 }
 .about-banner{
 	height:100px;
-	display:none;
+		margin-bottom:60px;
+
 }
 
 /* .......................................header .......................................*/
@@ -1323,11 +1348,21 @@ height:25px;
 
 .navbar li{
 
-	margin-right:5px;	
+	margin-right:12px;	
 }
 
 
+.fa-gift, .fa-envelope, .fa-arrows-h, .fa-tree, .fa-gbp, .fa-cube, .fa-tint, .fa-cutlery{
+	border-radius:100px;	
+	padding-top:15px;
+	padding-bottom:6px;
+	padding-left:5px;
+	padding-right:5px;
+	height:40px;
+	width:40px;
+}
 
+.about-banner .fa-gift, .about-banner .fa-envelope, .about-banner .fa-arrows-h, .about-banner .fa-tree, .about-banner .fa-cube, .about-banner .fa-gbp{font-size:30px;}
 
 
 }
