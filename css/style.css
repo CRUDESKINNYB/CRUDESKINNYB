@@ -99,6 +99,8 @@ table {
     overflow: auto;
 }
 
+.bold{font-weight:700}
+
 
 /* .......................................css reset .......................................*/
 
@@ -500,7 +502,7 @@ footer{
 /* .......................................Sub NAv......................................... */
 
 .sub-nav-holder{
-	max-width:1000px;
+	max-width:1010px;
 	background-color:#1eb3fe;
 	text-align:center;
 	margin:auto;
@@ -614,14 +616,15 @@ footer{
 }
 
 .sold{
-	width:77%;
+	width:100%;
+	max-width:1010px;
 	height:30px;
 	background-color:#18c1ff;
 	margin:auto;
 	padding-top:10px;
 	color:white;
-	margin-top:70px;
-	margin-bottom:70px;
+	margin-top:40px;
+	margin-bottom:0px;
 	font-size:20px;
 	text-align:center;
 }
@@ -653,8 +656,7 @@ footer{
 }
 
 #madetoorder{
-	width:100px;
-		margin-right:30px;
+	width:170px;
 
 }
 
@@ -1115,7 +1117,7 @@ display:none;
 .product{
 	width: 500px;
     height:500px;
-    margin:25px;
+    margin:0px;
     display:inline-block;
     vertical-align: text-top;	
 }
@@ -1174,7 +1176,6 @@ margin-bottom:-20px;
 .product{
 	width: 450px;
     height:450px;
-    margin:25px;
     display:inline-block;
     vertical-align: text-top;	
 }
@@ -1198,7 +1199,6 @@ margin-bottom:-20px;
 .product{
 	width: 400px;
     height:400px;
-    margin:25px;
     display:inline-block;
     vertical-align: text-top;	
 }
@@ -1297,7 +1297,7 @@ height:25px;
 .product{
 	width: 350px;
     height:350px;
-    margin:25px;
+
     display:inline-block;
     vertical-align: text-top;	
 }
