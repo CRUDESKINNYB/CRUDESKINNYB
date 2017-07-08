@@ -349,7 +349,7 @@ body a{
 }
  */
  
-#home-page .header, #boards-page .header, #zchair01 .header, #zchair02 .header, #watchbox-page .header, #accessories-page .header, #oboard-page .header, #furniture-page .header, #about-page .header, #contact-page .header{
+#home-page .header, #boards-page .header, #zchair01 .header, #zchair02 .header, #zchair03 .header, #watchbox-page .header, #accessories-page .header, #oboard-page .header, #furniture-page .header, #about-page .header, #contact-page .header{
     background-repeat: no-repeat;
     width: 100%;
     height: 0;
@@ -378,13 +378,18 @@ body a{
     background-size: cover;
 }
 
+#zchair01 .header{
+	background: url(../images/furniturelong2.jpg);
+    background-size: cover;
+}
+
 #zchair02 .header{
 	background: url(../images/furniturelong.jpg);
     background-size: cover;
 }
 
-#zchair01 .header{
-	background: url(../images/furniturelong2.jpg);
+#zchair03 .header{
+	background: url(../images/furniturelong3.jpg);
     background-size: cover;
 }
 
@@ -397,6 +402,8 @@ body a{
 	background: url(../images/accessories.jpg);
 	 background-size: cover;
 }
+
+
 
 
 /* 
@@ -665,6 +672,11 @@ footer{
 
 }
 
+#newitem{
+	background-color:black;
+	color:white;
+}
+
 
 /* .......................................Products End......................................... */
 /* .......................................Product Single......................................... */
@@ -677,12 +689,12 @@ footer{
 	text-align:center;
 	margin-top:30px;
 	margin-bottom:30px;
-
 }
 
 .imgwrap{
 	display:inline-block;
 	height:100%;
+	min-height:300px;
 	width:500px;
 	overflow:hidden;
 	text-align:center;
@@ -693,6 +705,7 @@ footer{
 	padding:10px;	
 }
 
+/* 
 	
 #zchair01 .imgwrap:nth-child(19){	
 	height:600px;
@@ -714,7 +727,7 @@ footer{
 #zchair02 .imgwrap:nth-child(16){	
 	height:700px;
 	width:500px;}
-
+ */
 
 
 
@@ -724,6 +737,10 @@ footer{
 	padding-top:20px;
 	padding-bottom:20px;
 	background-color:#f2f2f2;
+}
+
+#aboutchair{
+	padding-top:50px;
 }
 
 .aboutboard h2{
