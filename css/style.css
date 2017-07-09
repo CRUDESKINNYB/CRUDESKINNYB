@@ -362,50 +362,56 @@ body a{
 #about-page .header{
 	background: url(../images/banner.jpg);
     background-size: cover;
+    background-position: center;
 }
 
 #home-page .header{
 	background: url(../images/chair-main.jpg);
     background-size: cover;
-        background-position: center;
+    background-position: center;
 }
 
 #boards-page .header{
 	background: url(../images/boardslong.jpg);
     background-size: cover;
+    background-position: center;
 }
 
 
 #furniture-page .header{
 	background: url(../images/furniturelong.jpg);
     background-size: cover;
-        background-position: center;
+    background-position: center;
 }
 
 #zchair01 .header{
 	background: url(../images/furniturelong2.jpg);
     background-size: cover;
+    background-position: center;
 }
 
 #zchair02 .header{
 	background: url(../images/furniturelong.jpg);
     background-size: cover;
+    background-position: center;
 }
 
 #zchair03 .header{
 	background: url(../images/furniturelong3.jpg);
     background-size: cover;
+    background-position: center;
 }
 
 #watchbox-page .header{
 	background: url(../images/watchlong.jpg);
 	background-size: cover;
-	    background-position: center;
+	background-position: center;
 }
 
 #accessories-page .header{
 	background: url(../images/accessories.jpg);
-	 background-size: cover;
+	background-size: cover;
+	background-position: center;
 }
 
 
