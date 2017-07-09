@@ -355,6 +355,8 @@ body a{
     height: 0;
     padding-top:40.64%;
     border-bottom: 10px solid #18c1ff;
+
+    
 }
  
 #about-page .header{
@@ -365,6 +367,7 @@ body a{
 #home-page .header{
 	background: url(../images/chair-main.jpg);
     background-size: cover;
+        background-position: center;
 }
 
 #boards-page .header{
@@ -376,6 +379,7 @@ body a{
 #furniture-page .header{
 	background: url(../images/furniturelong.jpg);
     background-size: cover;
+        background-position: center;
 }
 
 #zchair01 .header{
@@ -396,6 +400,7 @@ body a{
 #watchbox-page .header{
 	background: url(../images/watchlong.jpg);
 	background-size: cover;
+	    background-position: center;
 }
 
 #accessories-page .header{
@@ -497,10 +502,23 @@ margin-top:0.3em;
 }
 
 .banner h2{
-margin-top:-1em;
+	margin-top:-1em;
 	font-size: calc(20px + 0.3vw);
 	text-shadow: 2px 2px 20px #666666;
 }
+
+#newitemarrived{
+	color:white;
+	font-size: calc(20px + 0.3vw);
+	background: rgba(000, 000, 000, 0.6);
+	padding: 5px;
+	margin:auto;
+	margin-top:1em;
+	width:40%;
+	/* text-decoration:underline; */
+}
+
+
 
 
 /* .......................................End Header........................................*/
@@ -666,7 +684,7 @@ footer{
 	padding-top:6px;
 	padding-left:8px;
 	height:15px;
-	margin-left:-1px;
+	margin-left:0px;
 }
 
 #madetoorder{
@@ -747,7 +765,7 @@ footer{
 
 .aboutboard h2{
 	font-size:23px;
-	padding-bottom:20px;
+	padding-bottom:40px;
 	height:30px;
 
 }
@@ -1109,6 +1127,10 @@ position:relative;
 	font-size: 2.2vw;
 }
 
+#newitemarrived{
+	font-size: 2.2vw;
+}
+
 
 }
 
@@ -1298,7 +1320,7 @@ height:25px;
 	text-align:right;
 }
 
-#home-page .header, #boards-page .header, #zchair01 .header, #watchbox-page .header, #accessories-page .header, #oboard-page .header, #furniture-page .header, #contact-page .header, #about-page .header{
+#home-page .header, #boards-page .header, #zchair01 .header, #zchair02 .header, #zchair03 .header, #watchbox-page .header, #accessories-page .header, #oboard-page .header, #furniture-page .header, #about-page .header, #contact-page .header{
     padding-top:132.64%;
 }
 
@@ -1315,6 +1337,11 @@ height:25px;
 
 .banner h2{
 	margin-top:-1em;
+	font-size: 4.6vw;
+}
+
+#newitemarrived{
+
 	font-size: 4.6vw;
 }
 
@@ -1364,7 +1391,7 @@ height:25px;
 /* .......................................header .......................................*/
 
 
-#home-page .header, #boards-page .header, #zchair01 .header, #watchbox-page .header, #accessories-page .header, #contact-page .header, #oboard-page .header, #furniture-page .header{
+#home-page .header, #boards-page .header, #zchair01 .header, #zchair02 .header, #zchair03 .header, #watchbox-page .header, #accessories-page .header, #oboard-page .header, #furniture-page .header, #about-page .header, #contact-page .header{
     height: 0;
     padding-top:175.64%;
 }
@@ -1377,6 +1404,10 @@ height:25px;
 }
 
 .banner h2{
+	font-size: 4.4vw;
+}
+
+#newitemarrived{
 	font-size: 4.4vw;
 }
 
