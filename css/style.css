@@ -34,19 +34,7 @@
     
 }
 
-@font-face {
-    font-family: 'p22_corinthia';
-    src: url('../fonts/p22_corinthia.eot');
-    src: url('../fonts/p22_corinthia.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/p22_corinthia.woff') format('woff'),
-         url('../fonts/p22_corinthia.ttf') format('truetype'),
-         url('../fonts/p22_corinthia.svg#P22Corinthia') format('svg');
-    font-weight: normal;
-    font-style: normal;
-    
 
-   
-}
 /* .......................................css reset .......................................*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -105,7 +93,7 @@ table {
 /* .......................................css reset .......................................*/
 
 /* ...................................... hover effects......................................... */	
-.fa-cube{
+.fa-cube, .fa-gift, .fa-envelope, .fa-arrows-h, .fa-tree, .fa-gbp, .fa-tint, .fa-cutlery, #backtop{
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: translateZ(0);
@@ -119,162 +107,12 @@ table {
   -webkit-transition-property: transform;
   transition-property: transform;
 }
-.fa-cube:hover, .fa-cube:focus, .fa-cube:active {
+.fa-cube:hover, .fa-cube:focus, .fa-cube:active, .fa-gift:hover, .fa-gift:focus, .fa-gift:active, .fa-gbp:hover, .fa-gbp:focus, .fa-gbp:active, .fa-envelope:hover, .fa-envelope:focus, .fa-envelope:active, .fa-arrows-h:hover, .fa-arrows-h:focus, .fa-arrows-h:active, .fa-tree:hover, .fa-tree:focus, .fa-tree:active, .fa-tint:hover, .fa-tint:focus, .fa-tint:active, .fa-cutlery:hover, .fa-cutlery:focus, .fa-cutlery:active, #backtop:hover, #backtop:focus, #backtop:active{
   -webkit-transform: scale(0.9);
   transform: scale(0.9);
 }	
 
-.fa-gift{
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: transform;
-  transition-property: transform;
- 
-}
-.fa-gift:hover, .fa-gift:focus, .fa-gift:active {
-  -webkit-transform: scale(0.9);
-  transform: scale(0.9);
-}
 
-.fa-envelope{
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-}
-.fa-envelope:hover, .fa-envelope:focus, .fa-envelope:active {
-  -webkit-transform: scale(0.9);
-  transform: scale(0.9);
-}
-
-.fa-arrows-h {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-}
-.fa-arrows-h:hover, .fa-arrows-h:focus, .fa-arrows-h:active {
-  -webkit-transform: scale(0.9);
-  transform: scale(0.9);
-}
-
-.fa-tree{
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-}
-.fa-tree:hover, .fa-tree:focus, .fa-tree:active {
-  -webkit-transform: scale(0.9);
-  transform: scale(0.9);
-}
-
-.fa-gbp{
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-}
-.fa-gbp:hover, .fa-gbp:focus, .fa-gbp:active {
-  -webkit-transform: scale(0.9);
-  transform: scale(0.9);
-}
-
-.fa-tint{
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-}
-.fa-tint:hover, .fa-tint:focus, .fa-tint:active {
-  -webkit-transform: scale(0.9);
-  transform: scale(0.9);
-}
-
-.fa-cutlery{
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-}
-.fa-cutlery:hover, .fa-cutlery:focus, .fa-cutlery:active {
-  -webkit-transform: scale(0.9);
-  transform: scale(0.9);
-}
-#backtop{
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-}
-#backtop:hover, #backtop:focus, #backtop:active {
-  -webkit-transform: scale(0.9);
-  transform: scale(0.9);
-}
 
 /* ...................................... hover effects......................................... */
 /* ...................................... Back to top......................................... */		
@@ -288,21 +126,17 @@ table {
 	cursor:pointer;
 	margin-top:40px;
 	color:white;
-
 }
+
 /* ......................................  Back to top......................................... */	
 /* .......................................css Body .......................................*/
-
-
-
 
 html, body{
 	font-family: 'lato-regular', sans-serif;
 	background:#ffffff;
 	margin:0;
 	padding:0;
-	background-color:#f2f2f2; /* background color */
-	
+	background-color:#f2f2f2; /* background color */	
 }
 
 
@@ -326,49 +160,43 @@ body a{
 /* .......................................css Header .......................................*/
 
 .max-width-view{
-	max-width:1024px;
+	width:100%; /* changed from 1024px */
 	margin:auto;
+	max-width:1600px; /* effects max width of background image */
 
 }
 
 .header-holder{
-	width:100%
-	
-	
-}
-
-/* 
-.header{
-	background: url(../images/boardslong.jpg);
-    background-repeat: no-repeat;
+	width:100%;
+	max-height:500px;
+	overflow:hidden;
 	border-bottom: 10px solid #18c1ff;
-    background-size: cover;
-    width: 100%;
-    height: 0;
-    padding-top:40.64%;
+	
+	
 }
- */
+
  
-#home-page .header, #boards-page .header, #zchair01 .header, #zchair02 .header, #zchair03 .header, #watchbox-page .header, #accessories-page .header, #oboard-page .header, #furniture-page .header, #about-page .header, #contact-page .header{
+#home-page .header, #boards-page .header, #zchair01 .header, #zchair02 .header, #zchair03 .header, #box-page .header, #accessories-page .header, #oboard-page .header, #furniture-page .header, #about-page .header, #contact-page .header, #footstool01 .header, #about-bespoke-page .header, #about-chopping-boards-page .header, #gallery-page .header{
     background-repeat: no-repeat;
-    width: 100%;
+    width:100%;
     height: 0;
     padding-top:40.64%;
-    border-bottom: 10px solid #18c1ff;
-
-    
+    margin:auto;
+    background-size: auto 100px;
 }
  
 #about-page .header{
-	background: url(../images/banner.jpg);
+	background: url(../images/abouttopbannerr.jpg);
     background-size: cover;
     background-position: center;
+    
 }
 
 #home-page .header{
 	background: url(../images/chair-main.jpg);
     background-size: cover;
     background-position: center;
+    
 }
 
 #boards-page .header{
@@ -402,7 +230,13 @@ body a{
     background-position: center;
 }
 
-#watchbox-page .header{
+#footstool01 .header{
+	background: url(../images/footstoolheader.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#box-page .header{
 	background: url(../images/watchlong.jpg);
 	background-size: cover;
 	background-position: center;
@@ -415,14 +249,11 @@ body a{
 }
 
 
-
-
-/* 
 #contact-page .header{
-	background: url(../images/me3.jpg);
+	background: url(../images/5.jpg);
     background-size: cover;
 }
- */
+
 
 
 #oboard-page .header{
@@ -430,8 +261,23 @@ body a{
     background-size: cover;
 }
 
+#about-bespoke-page .header{
+	background: url(../images/about-bespoke.jpg);
+	background-size: cover;
+	background-position: center;
+}
 
+#about-chopping-boards-page .header{
+	background: url(../images/about-chopping-boards-page.jpg);
+	background-size: cover;
+	background-position: center;
+}
 
+#gallery-page .header{
+	background: url(../images/5.jpg);
+	background-size: cover;
+	background-position: center;
+}
 
 
 #contact-page .banner{
@@ -440,10 +286,19 @@ body a{
 }
 
 
+
+.navigation{
+	max-width: 1600px;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	margin:auto;
+}
+
 .navbar{
-	width:100%;
-	background-color:rgba(0, 0, 0, 0.3);
+	width:1000px;
 	font-size:1em;
+	background-color:rgba(0, 0, 0, 0.3);
 }
 
 
@@ -456,7 +311,6 @@ body a{
 	padding-right:0px;
 	padding-top:15px;
 	padding-bottom:10px;
-	
 }
 
 
@@ -465,10 +319,11 @@ body a{
 	margin-right:30px;	
 }
 
+
 #paypal-basket{
-margin-top:-20px;	
-margin-right:10px;
-height:0px;
+	margin-top:-20px;	
+	margin-right:10px;
+	height:12px;
 }
 
 #skinner a{
@@ -500,11 +355,10 @@ height:0px;
 }
 
 .banner h1{
-margin-top:0.3em;
+margin-top:0.6em;
 	font-weight:100;
 	font-size: calc(170px + 3vw);
 	text-shadow: 2px 2px 20px #666666;
-	
 }
 
 .banner h2{
@@ -513,6 +367,7 @@ margin-top:0.3em;
 	text-shadow: 2px 2px 20px #666666;
 }
 
+/* 
 #newitemarrived{
 	color:white;
 	font-size: calc(20px + 0.3vw);
@@ -523,28 +378,26 @@ margin-top:0.3em;
 	width:40%;
 	text-decoration:underline;
 }
+ */
 
 
 
 
 /* .......................................End Header........................................*/
-/* .......................................Footer........................................*/
-footer{
-	margin-top:30px;
-	width:100%;
-	text-align:center;
-}
 
-
-/* .......................................End Footer........................................*/
 /* .......................................Sub NAv......................................... */
 
 .sub-nav-holder{
+  	position: -webkit-sticky;
+ 	 /* position: sticky; */
+  	top: 0;
 	max-width:1010px;
 	background-color:#1eb3fe;
 	text-align:center;
 	margin:auto;
-	margin-top:20px;
+	z-index:1000;
+	border-top:10px solid #f1f2f1;
+	border-bottom:10px solid #f1f2f1;
 }
 
 .sub-nav li{
@@ -555,6 +408,7 @@ footer{
 	font-weight:100;
 	font-size:1em;
 	height:20px;
+
 }
 
 .sub-nav li a{
@@ -581,147 +435,320 @@ footer{
 	margin-left:-15px;
 	margin-top:3px;
 	/*display:none;*/
+	color:black;
+}
+
+
+
+/* .......................................Banner images......................................... */
+
+
+.mainpageinfo {
+	background: url(../images/indexpageinfobanner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+#boards-page .mainpageinfo {
+	background: url(../images/board.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+ 
+ #oboard-page .mainpageinfo {
+	background: url(../images/onion-board.jpg);
+    background-size: cover;
+    background-position: center; 
+}
+
+#furniture-page .mainpageinfo {
+	background: url(../images/zchairpageinfobanner.jpg);
+    background-size: cover;
+    background-position: center;    
+}
+
+ 
+#box-page .mainpageinfo {
+	background: url(../images/boxbanner.jpg);
+    background-size: cover;
+    background-position: center; 
+}
+
+ 
+#accessories-page .mainpageinfo {
+	background: url(../images/waxbanner.jpg);
+    background-size: cover;
+    background-position: center;   
+}
+
+#about-page .mainpageinfo {
+	background: url(../images/300x300/about/27.jpg);
+    background-size: cover;
+    background-position: right;
+    
+}
+
+#oboard-page .mainpageinfo {
+	background: url(../images/onion-board.jpg);
+    background-size: cover;
+    background-position: center; 
+}
+
+#about-bespoke-page .mainpageinfo {
+	background: url(../images/ruler.jpg);
+    background-size: cover;
+    background-position: center; 
+}
+
+#about-chopping-boards-page .mainpageinfo {
+	background: url(../images/300x300/about/27.jpg);
+    background-size: cover;
+    background-position: right; 
+}
+
+/* .......................................Top info banner......................................... */
+
+.mainpageinfo {
+	width:84%;
+	height:200px;
+	max-width:1010px;
+	font-family: 'lato-regular', sans-serif;
+	color:white;
+	text-align: center;	
+	margin:auto;
+	font-size:17px;
+	line-height:22px;
+ 	text-shadow:1px 1px 3px rgba(0, 0, 0, 2);
+ 	overflow:hidden;
+ 	
+}
+
+
+#about-page .mainpageinfo, #about-chopping-boards-page .mainpageinfo{
+	margin-bottom:30px;
+	margin-top:10px;
 
 }
 
+#gallery-page .mainpageinfo{
+
+	margin-top:10px;
+}
+
+.centerpageinfo{
+	height:200px;
+}
+
+#pageinfo1, #pageinfo2{
+	width:60%;
+	display:inline-block;
+	padding-left: 15px;
+	padding-right: 15px;
+	position: relative;
+  	top: 40%;
+  	transform: translateY(-50%);
+	/* border:solid red 1px; */
+	overflow:hidden;
+	margin-bottom:100px;
+}
+
+.mainpageinfo p{
+	padding-top:10px;
+}
+
+.product-link-to-info{
+	font-size:150%;
+	line-height:120%;
+	margin-top:20px;
+	height:150px;
+	}
+
+
+
+
+
+/* .......................................products hover code......................................... */
+
+
+
+/* Grow */
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+
+
+
+
+/* .......................................Blue made to order bar......................................... */
+#mtosold{
+	margin-top:10px;
+}
 
 /* .......................................products......................................... */
-
 .products{
 	text-align: center;	
-	margin-top:25px;
 	max-width:1200px;
 	margin:auto;
-	
-	
 }
+
+
+.product_holder{ 
+	width:26.5%;
+	margin:10px;	
+	display: inline-block;
+	vertical-align:top;
+}
+
 
 .product{
-	width: 300px;
-    height:300px;
-    margin:25px;
-    display:inline-block;
-    vertical-align: text-top;	
-    
-}
+	width:100%;
 
-.holder{
-    padding: 0 0 20px 0;	
-    
-}
-
-.products img{
-	max-width:100%;
-	max-height:100%;
-	box-shadow: 0px 0px 2px #ccc;
-	
-	
 }
 
 
-.holder_border {
-
-   margin-top:-2px;
-   padding-top:4px;
-   padding-bottom:4px;  
-   text-align: left;
-   background-color:white;
-   	box-shadow: 0px 0px 2px #ccc;
-   
-  
-   
+.product_bs{
+	box-shadow: 0px 0px 10px #ccc;
+	height:100%;
 }
 
-.product h3{
+.product img{
+	width:100%;
+	height:100%;	
+}
+
+.product_lable{
+	position:absolute;
+	margin-top:-50px;
+	margin-right:5px;
+	font-size:20px;
+	background-color:white;
+	padding-top:6px;
+	padding-bottom:5px;
+	padding-left:8px;
+	padding-right:10px;
+	font-family: 'lato-bold', sans-serif;
+}
+
+.newitem{
+	background-color:black;
+	color:white;
+}
+
+.solditem{
+	background-color:white;
+	color:#7e7f7e;
+}
+
+.orderitem{
+	background-color:#0f8ebd;
+	color:white;
+}
+
+
+.product_info{
+	width:100%;
+	background-color:white;
+	margin-top:-2px;
+	margin-top:-2px;
+}
+
+.product_wood_type{
 	font-size:16px;
 	padding-left:10px;
+	padding-right:10px;
 	padding-top:10px;
 	margin-bottom:10px;
 	color:#535151;
 	font-family: 'Montserrat', sans-serif;
-	line-height:20px;
-	
+	text-align:left;
+	line-height:130%;
 }
 
-
-.product h4{
+.product_type{
 	font-size:13px;
 	padding-bottom:10px;
 	padding-left:10px;
+	padding-right:10px;
 	color:#7f7f7f;
 	font-family: 'Montserrat', sans-serif;
-	
+	line-height:120%;
+	text-align:left;
 }
+
+.product_size{
+	font-size:13px;
+	padding-bottom:10px;
+	padding-left:10px;
+	padding-right:10px;
+	color:#7f7f7f;
+	font-family: 'Montserrat', sans-serif;
+	line-height:120%;
+	text-align:left;
+}
+
+
+#productwide1{ 
+	width:83.5%;
+	margin:auto;	
+}
+
 
 .sold{
 	width:100%;
 	max-width:1010px;
 	height:30px;
-	background-color:#18c1ff;
+	background-color:#1eb2fd;
 	margin:auto;
 	padding-top:10px;
 	color:white;
 	margin-top:40px;
-	margin-bottom:0px;
+	margin-bottom:10px;
 	font-size:20px;
 	text-align:center;
-}
-.copyright{
-	margin:auto;
-	padding-top:10px;
-	color:black;
-	margin-top:70px;
-	margin-bottom:70px;
-	font-size:14px;
-	text-align:center;
-	font-family: 'Montserrat', sans-serif;
-
-}
-
-.product .purchased{
-	
-	position:absolute;
-	margin-top:-50px;
-	margin-right:5px;
-	color:#7f7f7f;
-	font-size:20px;
-	width:65px;
-	background-color:white;
-	padding-top:6px;
-	padding-left:8px;
-	height:15px;
-	margin-left:0px;
-}
-
-#madetoorder{
-	width:170px;
-
-}
-
-#newitem{
-	background-color:black;
-	color:white;
+	margin-bottom:25px;
 }
 
 
-/* .......................................Products End......................................... */
+#instock{
+	margin-top:10px;
+}
+
+
+
+
+
+
 /* .......................................Product Single......................................... */
 
 
 .imgcontainer{
 	margin:auto;
-	width:90%;
+	width:100%;
 	max-width:1100px;
 	text-align:center;
-	margin-top:30px;
-	margin-bottom:30px;
+	margin-top:10px;
+	margin-bottom:0px;
 }
 
 .imgwrap{
 	display:inline-block;
 	height:100%;
-	min-height:300px;
-	width:500px;
+	width:40%;
 	overflow:hidden;
 	text-align:center;
 }
@@ -731,34 +758,10 @@ footer{
 	padding:10px;	
 }
 
-/* 
-	
-#zchair01 .imgwrap:nth-child(19){	
-	height:600px;
-	width:500px;}
-#zchair01 .imgwrap:nth-child(20){	
-	height:600px;
-	width:500px;}
-#zchair01 .imgwrap:nth-child(21){	
-	height:700px;
-	width:500px;}
-#zchair01 .imgwrap:nth-child(22){	
-	height:700px;
-	width:500px;}
-	
-	
-#zchair02 .imgwrap:nth-child(15){	
-	height:700px;
-	width:500px;}
-#zchair02 .imgwrap:nth-child(16){	
-	height:700px;
-	width:500px;}
- */
-
 
 
 .aboutboard{
-	margin-top:-2px;
+	margin-top:10px;
 	text-align:center;
 	padding-top:20px;
 	padding-bottom:20px;
@@ -781,9 +784,17 @@ footer{
 	padding-left:30px;
 	padding-right:30px;
 	margin:auto;
-		margin-top:10px;
-	
-	
+	margin-top:10px;
+}
+
+.aboutboard a{
+	color:#27b2e8;
+
+}
+
+.aboutboard a:hover{
+	color:red;
+
 }
 
 #product-number{
@@ -794,6 +805,7 @@ footer{
 	text-align:center;
 	padding-top:50px;	
 	
+	
 }
 
 table{
@@ -801,25 +813,6 @@ table{
 	margin:auto;
 	margin-top:25px;
 	margin-bottom:25px;
-}
-
-.hvr-grow, .contact-info-block{
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-}
-.hvr-grow, .contact-info-block:hover, .hvr-grow, .contact-info-block:focus, .hvr-grow, .contact-info-block:active {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
 }
 
 
@@ -896,7 +889,10 @@ table{
 	padding-top:30px;
 	width:100%;
 	background-color:#f2f2f2;
-	text-align:center;	
+	text-align:center;
+	max-width:1000px;
+	margin:auto;	
+
 	
 }
 
@@ -950,50 +946,45 @@ table{
 	position: relative; 
 }
 
+
 .instagram{
 max-width:1000px;
-width:100%;
-margin: auto;
-padding-top:15px;
+margin:auto;
+  display: flex;
+  flex-wrap: wrap;
 
 
 }
 
 .insta-left{
-float:left;
-width:50%;
-overflow:hidden;
+ flex: 1 300px;
+  min-width: 0;
+  padding: 15px 10px;
+
+
 }
 
 .insta-right{
 
-width:50%;
-overflow:hidden;
-}
+ flex: 1 300px;
+  min-width: 0;
+  padding: 15px 10px;
 
+}
 
 
 
 /* .......................................About end......................................... */
 /* ...................................... Contact......................................... */
 
-/* 
-#contact-background{
-	width:100%;
-	background-color:white;
-	height:100%;
-	float:right;	
-}
- */
 #contact-background{width:100%;}
 
 .contact-info{
-	width:100%;
+	width:95%;
 	text-align:center;
 	max-width:1000px;
 	margin:auto;
 	margin-top:30px;
-	overflow:hidden;
 	padding-bottom:20px;
 }
 
@@ -1019,7 +1010,7 @@ overflow:hidden;
     
 }
 
-#block1:hover, #block2:hover, #block3:hover, #block4:hover, #block5:hover, #block6:hover, #block7:hover, #block8:hover, #block9:hover{
+#block1:hover, #block2:hover, #block3:hover, #block4:hover, #block5:hover, #block6:hover, #block7:hover, #block8:hover, #block9:hover, #block10:hover, #block11:hover, #block12:hover{
 position:relative;
 	z-index:100;
 }
@@ -1053,7 +1044,10 @@ position:relative;
 #block7{
 	background-color:blue;
 	background-image: url("../images/about7.jpg");
+}
 
+#block8{
+	background-color:#00ff80;
 	
 }
 
@@ -1062,18 +1056,26 @@ position:relative;
 	background-image: url("../images/about4.jpg");
 }
 
-#block8{
-	background-color:#00ff80;
-	
+#block10{
+	background-color:grey;
+}
+#block11{
+	background-color:yellow;
+	background-image: url("../images/about11.jpg");
+}
+#block12{
+	background-color:red;
+	background-image: url("../images/about12.jpg");
 }
 
-#block1, #block3, #block5, #block7, #block9{
+
+#block1, #block3, #block5, #block7, #block9, #block11, #block12{
 	background-size: 333px 333px;
     background-repeat: no-repeat;
 	
 }
 
-#letter, #rss, #location{
+#letter, #rss, #location, #facebook{
 	border:white solid 3px;
 	border-radius:200px;
 	float:left;
@@ -1110,21 +1112,101 @@ position:relative;
 /* ...................................... Contact End......................................... */
 
 /* ...................................... About Pages Start......................................... */
+
+.aboutcontainerdiv{
+	margin:auto;
+	width:100%;
+	max-width:976px;
+	margin-top:10px;
+	margin-bottom:10px;
+	background-color:white;
+	box-shadow: 0px 0px 2px #ccc;
+
+}
+
+.aboutcontainerdiv h3{
+	color:#535050;
+	padding-top:10px;
+	text-align:center;
+}
+
+
+#one{
+    float: left;
+    width:66%;
+    margin-right:10px;
+    box-shadow: 0px 0px 2px #ccc;
+    
+    
+}
+
+.aboutcontainerdiv p{
+     padding:10px;
+     text-align:center;
+     vertical-align:middle;
+     color:#7e7f7e; 
+     margin-left:10px;  
+     margin-right:10px; 
+     line-height:110%;
+}
+
+
+.find_out_more{
+	color:#12ade6; 
+	font-size:100%;
+}
+
+.first-word{
+	font-weight:bold;
+}
+
+/* .......................................Footer........................................*/
+footer{
+	margin-top:30px;
+	width:100%;
+	text-align:center;
+}
+
+/* .......................................Copyright......................................... */
+
+
+.copyright{
+	margin:auto;
+	padding-top:10px;
+	color:black;
+	margin-top:70px;
+	margin-bottom:70px;
+	font-size:14px;
+	text-align:center;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+/* .......................................End Footer........................................*/
+
 /* ...................................... About Pages End......................................... */
 
 /* ...................................... Media Queries Start......................................... */
 
 
-@media screen and (max-width:1056px) {/* ...................................... 1048 */
+@media screen and (max-width:1045px) {/* ...................................... 600 */
 
-/* ...................................... Sub Nav......................................... */
+	#block9, #block12{
+	display:none;
+}
 
+}
+
+@media screen and (max-width:1010px) {/* ...................................... 894 */
 
 
 }
+
+
+
 @media screen and (max-width:1000px) {/* ...................................... 1500 */
+
 .banner h1{
-	margin-top:0.3em;
 	font-size: 20vw;	
 }
 
@@ -1137,19 +1219,63 @@ position:relative;
 	font-size: 2.2vw;
 }
 
+#wideproduct{
+	width: 640px;
+    height:640px;
+    margin:0px;
+    display:inline-block;
+    vertical-align: text-top;	
+    margin-top:20px;
+}
+
+
 
 }
 
-@media screen and (max-width:1010px) {/* ...................................... 894 */
-#block9{
-display:none;
+
+
+@media screen and (max-width:900px) {/* ...................................... 600 */
+
+.product_holder{ 
+	width:45%;
+	margin:15px;	
 }
 
+#about-page .product_holder{ 
+	width:80%;
+	margin:15px;	
 }
+
+#gallery-page .product_holder{ 
+	width:80%;
+	margin:15px;	
+}
+
+#productwide1{ 
+	width:80%;
+	margin:auto;	
+}
+
+
+.mainpageinfo {
+	width:94%;
+
+ 	
+}
+
+
+
+}
+
+
 
 @media screen and (max-width:750px) {/* ...................................... 600 */
 
 
+#pageinfo1, #pageinfo2{
+  	top: 45%;
+
+}
 
 
 }
@@ -1162,31 +1288,29 @@ display:none;
 	display:none;
 }
 
-.underline-option{text-decoration:underline;
+.underline-option{
+	text-decoration:underline;
 	
 }
 
-.product{
+#wideproduct{
 	width: 500px;
     height:500px;
-    margin:0px;
-    display:inline-block;
-    vertical-align: text-top;	
-    margin-top:20px;
 }
 
 
 
 }
 
-@media screen and (max-width:595px) {/* ......................................643 */
-/* ...................................... Sub Nav......................................... */
 
+@media screen and (max-width:632px) {/* ...................................... 600 */
 
-
-
+.product_holder{ 
+	width:75%;
+	margin:15px;	
 }
 
+}
 @media screen and (max-width:600px) {/* ...................................... 600 */
 
 /* .......................................sub nav .......................................*/
@@ -1226,11 +1350,9 @@ margin-bottom:-20px;
 }
 	
 /* .......................................css product images .......................................*/
-.product{
+#wideproduct{
 	width: 450px;
-    height:450px;
-    display:inline-block;
-    vertical-align: text-top;	
+    height:450px;	
 }
 
 
@@ -1239,22 +1361,38 @@ margin-bottom:-20px;
 	width:90%;
 }
 
+
+
+
 /* .......................................skinner banner .......................................*/
 
 
 }
+
+@media screen and (max-width:570px) {/* ......................................643 */
+
+#pageinfo1, #pageinfo2{
+	width:80%;
+  	top: 45%;
+}
+
+	
+
+}
+
 
 @media screen and (max-width:519px) {/* ...................................... 519 */
 
 
 
 /* .......................................css product images .......................................*/
-.product{
+#wideproduct{
 	width: 400px;
     height:400px;
-    display:inline-block;
-    vertical-align: text-top;	
+
 }
+
+
 	
 }
 @media screen and (max-width:499px) {/* ...................................... 499 */
@@ -1270,20 +1408,17 @@ margin-bottom:-20px;
 }
 @media screen and (min-width:451px) {/* ...................................... 450 */
 
-#contact-page .header{
-	background: url(../images/me3.jpg);
-    background-size: cover;
-}
+
+
+
+
 }
 
 @media screen and (max-width:450px) {/* ...................................... 450 */
 
 /* .......................................css Header .......................................*/
 
-#contact-page .header{
-	background: url(../images/me3mobile.jpg);
-    background-size: cover;
-}
+
 
 .navbar{
 	width:100%;
@@ -1324,10 +1459,16 @@ margin-top:-20px;
 margin-right:10px;
 height:25px;
 	text-align:right;
+	
 }
 
-#home-page .header, #boards-page .header, #zchair01 .header, #zchair02 .header, #zchair03 .header, #watchbox-page .header, #accessories-page .header, #oboard-page .header, #furniture-page .header, #about-page .header, #contact-page .header{
+#home-page .header, #boards-page .header, #zchair01 .header, #zchair02 .header, #zchair03 .header, #box-page .header, #accessories-page .header, #oboard-page .header, #furniture-page .header, #about-page .header, #contact-page .header{
     padding-top:132.64%;
+}
+
+
+.mainpageinfo {
+	font-size:12px;
 }
 
 
@@ -1337,7 +1478,7 @@ height:25px;
 /* .......................................skinner banner .......................................*/
 
 .banner h1{
-	margin-top:0.5em;
+
 	font-size: 35vw;	
 }
 
@@ -1352,17 +1493,14 @@ height:25px;
 }
 
 /* .......................................css product images .......................................*/
-.product{
+#wideproduct{
 	width: 350px;
     height:350px;
+	
 
-    display:inline-block;
-    vertical-align: text-top;	
 }
 
-#contact-page .header{
-    padding-top:178.64%;
-}
+
 
 
 
@@ -1372,13 +1510,25 @@ height:25px;
 @media screen and (max-width:400px) {/* ...................................... 400 */
 
 
+.sub-nav li{
+	text-align:center;
+	display:inline-block;
+	margin:5px;
+	font-family:lato-regular;
+	font-weight:100;
+	font-size:0.9em;
+	height:15px;
+
+
+}
+
+
+
 /* .......................................css product images .......................................*/
-.product{
-	width: 250px;
-    height:250px;
-    margin:25px;
-    display:inline-block;
-    vertical-align: text-top;	
+#wideproduct{
+	width: 280px;
+    height:280px;
+	
 }
 /* .......................................css about banner .......................................*/
 
@@ -1397,7 +1547,7 @@ height:25px;
 /* .......................................header .......................................*/
 
 
-#home-page .header, #boards-page .header, #zchair01 .header, #zchair02 .header, #zchair03 .header, #watchbox-page .header, #accessories-page .header, #oboard-page .header, #furniture-page .header, #about-page .header, #contact-page .header{
+#home-page .header, #boards-page .header, #zchair01 .header, #zchair02 .header, #zchair03 .header, #box-page .header, #accessories-page .header, #oboard-page .header, #furniture-page .header, #about-page .header, #contact-page .header{
     height: 0;
     padding-top:175.64%;
 }
@@ -1405,7 +1555,7 @@ height:25px;
 /* .......................................skinner banner .......................................*/
 
 .banner h1{
-	margin-top:0.5em;
+
 	font-size: 30vw;	
 }
 
@@ -1458,4 +1608,5 @@ height:25px;
 
 
 /* ...................................... Media Queries End......................................... */
+
 
