@@ -316,7 +316,7 @@ body a{
 
 .navbar li{
 	display: inline;
-	margin-right:30px;	
+	margin-right:25px;	
 }
 
 
@@ -1078,34 +1078,38 @@ position:relative;
 #letter, #rss, #location, #facebook{
 	border:white solid 3px;
 	border-radius:200px;
-	float:left;
 	color:white;
 	padding:20px;
 	font-size:50px;
-	margin-left:80px;
-	margin-top:80px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:25%;
 	width:100px;
+
 }
 
 .contact-info-block h3{
-	float:left;
-	margin:auto;
+
+	margin-left:auto;
+	margin-right:auto;
 	width:100%;
 	text-align:center;
 	color:white;
 	padding-top:25px;
+	
 }
 
 #etsy{
-	float:left;
+
 	font-family: "Times New Roman", Georgia, Serif;
 	font-size:65px;
 	border:white solid 3px;
 	border-radius:200px;
 	width:120px;
 	padding:10px;
-	margin-left:80px;
-	margin-top:80px;
+	margin-left:auto;
+	margin-right:auto;
+margin-top:25%;
 	color:white;	
 }
 
@@ -1186,6 +1190,8 @@ footer{
 
 /* ...................................... About Pages End......................................... */
 
+
+
 /* ...................................... Media Queries Start......................................... */
 
 
@@ -1194,6 +1200,9 @@ footer{
 	#block9, #block12{
 	display:none;
 }
+
+#letter, #rss, #location, #facebook, #etsy{
+margin-top:26%;
 
 }
 
@@ -1297,7 +1306,28 @@ footer{
 	width: 500px;
     height:500px;
 }
+}
 
+@media screen and (max-width:695px) {/* ......................................708 */
+
+.contact-info-block{
+	
+	width:250px;
+	height:250px;	
+	display:inline-block;
+
+}
+
+#block1, #block3, #block5, #block7{
+	background-size: 250px 250px;
+    background-repeat: no-repeat;
+
+}
+
+#letter, #rss, #location, #facebook, #etsy{
+margin-top:22%;
+
+}
 
 
 }
@@ -1379,6 +1409,30 @@ margin-bottom:-20px;
 	
 
 }
+@media screen and (max-width:523px) {/* ...................................... 519 */
+
+.contact-info-block{
+	width:280px;
+	height:280px;	
+
+
+}
+
+#block1, #block3, #block5, #block7{
+	background-size: 280px 280px;
+
+}
+
+#letter, #rss, #location, #facebook, #etsy{
+	margin-top:22%;
+}
+
+	#block1, #block3, #block5, #block7, #block9, #block11{
+	display:none;
+}
+
+
+}
 
 
 @media screen and (max-width:519px) {/* ...................................... 519 */
@@ -1398,10 +1452,7 @@ margin-bottom:-20px;
 @media screen and (max-width:499px) {/* ...................................... 499 */
 
 /* .......................................css Header .......................................*/
-.navbar li{
 
-	margin-right:30px;	
-}
 
 
 
@@ -1424,6 +1475,7 @@ margin-bottom:-20px;
 	width:100%;
 	background-color:rgba(0, 0, 0, 0.3);
 	font-size:1em;
+	height:22px;
 }
 
 
@@ -1445,24 +1497,18 @@ margin-bottom:-20px;
 }
 
 #skinner a{
-	font-family:Raleway;
-	font-weight:100;
-	font-size:1.5em;
-	float:left;
-	vertical-align:center;
-	margin-top:-5px;
 	display:none;
 }
 
 #paypal-basket{
-margin-top:-20px;	
-margin-right:10px;
-height:25px;
+	margin-top:-20px;	
+	margin-right:10px;
+	height:25px;
 	text-align:right;
 	
 }
 
-#home-page .header, #boards-page .header, #zchair01 .header, #zchair02 .header, #zchair03 .header, #box-page .header, #accessories-page .header, #oboard-page .header, #furniture-page .header, #about-page .header, #contact-page .header{
+#home-page .header, #boards-page .header, #zchair01 .header, #zchair02 .header, #zchair03 .header, #box-page .header, #accessories-page .header, #oboard-page .header, #furniture-page .header, #about-page .header, #contact-page .header, #footstool01 .header, #about-bespoke-page .header, #about-chopping-boards-page .header, #gallery-page .header{
     padding-top:132.64%;
 }
 
@@ -1547,7 +1593,7 @@ height:25px;
 /* .......................................header .......................................*/
 
 
-#home-page .header, #boards-page .header, #zchair01 .header, #zchair02 .header, #zchair03 .header, #box-page .header, #accessories-page .header, #oboard-page .header, #furniture-page .header, #about-page .header, #contact-page .header{
+#home-page .header, #boards-page .header, #zchair01 .header, #zchair02 .header, #zchair03 .header, #box-page .header, #accessories-page .header, #oboard-page .header, #furniture-page .header, #about-page .header, #contact-page .header, #footstool01 .header, #about-bespoke-page .header, #about-chopping-boards-page .header, #gallery-page .header{
     height: 0;
     padding-top:175.64%;
 }
@@ -1569,6 +1615,15 @@ height:25px;
 
 /* .......................................sub nav .......................................*/
 	
+	
+
+
+#block1, #block3, #block5, #block7{
+	background-size: 333px 333px;
+    background-repeat: no-repeat;
+
+}
+	
 
 }
 
@@ -1576,11 +1631,6 @@ height:25px;
 
 /* .......................................nav bar .......................................*/
 
-.navbar{
-	width:100%;
-	background-color:rgba(0, 0, 0, 0.3);
-	font-size:0.8em;
-}
 
 .navbar li{
 
@@ -1603,8 +1653,12 @@ height:25px;
 
 }
 
-
-
+@media print {
+  body {
+  color: #000;
+  background: #fff;
+  }
+}
 
 
 /* ...................................... Media Queries End......................................... */
