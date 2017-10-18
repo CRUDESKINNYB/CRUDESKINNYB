@@ -1190,7 +1190,28 @@ footer{
 
 /* ...................................... About Pages End......................................... */
 
+.footerlinks{
+	margin:auto;
+	width:50%;
+	text-align: center;
+	margin-top:60px;
+}
 
+.footerlinks p{
+	margin-bottom:10px;
+
+}
+
+.footerlinks a{
+	display:inline-block;
+	color:black;
+	margin-left:10px;
+	text-decoration: underline;
+}
+
+.footerlinks a:hover{
+	color:grey;
+}
 
 /* ...................................... Media Queries Start......................................... */
 
