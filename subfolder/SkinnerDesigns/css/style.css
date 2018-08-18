@@ -1404,7 +1404,7 @@ margin-bottom:-20px;
 }
 
 .navigation ul{
-border:solid red 1px;
+
  list-style-type: none;
   padding: 0;
   display: flex;
@@ -1414,7 +1414,7 @@ border:solid red 1px;
 }
 
 .navigation ul li{
-border:solid green 1px;
+
 height:60px;
 line-height:60px;
 
