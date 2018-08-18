@@ -1396,18 +1396,32 @@ margin-bottom:-20px;
 @media screen and (max-width:530px) {/* ...................................... 519 */
 
 #skinner a{
- 
-	visibility:hidden;
+ display:none;
 }
 
+#skinner{
+ display:none;
+}
 
+.navigation ul{
+border:solid red 1px;
+ list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: nowrap; /* assumes you only want one row */
+}
 
 .navigation ul li{
-	padding-left:15px;
-	padding-right:15px; 
+border:solid green 1px;
+height:60px;
+line-height:60px;
+
 }
-
-
+.navigation{
+	height:60px;
+}
 
 
 
@@ -1478,44 +1492,12 @@ margin-bottom:-20px;
 
 /* .......................................css Header .......................................*/
 
-
-
-.navbar{
-	width:100%;
-	background-color:rgba(0, 0, 0, 0.3);
-	font-size:1em;
-	height:22px;
+.navigation ul li{
+font-size:15px;
 }
 
 
-.navigation ul{
-	float:left;
-	text-align:center;
-	width:100%;
-	margin:auto;	
-	padding-left:0px;
-	padding-right:0px;
-	padding-top:15px;
-	padding-bottom:10px;
-	
-}
 
-
-.navbar li{
-	margin-right:20px;	
-}
-
-#skinner a{
-	display:none;
-}
-
-#paypal-basket{
-	margin-top:-20px;	
-	margin-right:10px;
-	height:25px;
-	text-align:right;
-	
-}
 
 #home-page .header, #boards-page .header, #zchair01 .header, #zchair02 .header, #zchair03 .header, #box-page .header, #accessories-page .header, #oboard-page .header, #furniture-page .header, #about-page .header, #contact-page .header, #footstool01 .header, #about-bespoke-page .header, #about-chopping-boards-page .header, #gallery-page .header{
     padding-top:132.64%;
@@ -1526,17 +1508,8 @@ margin-bottom:-20px;
 	font-size:12px;
 }
 
-.navigation{
-	height:60px;
-}
 
-.navigation ul li{
- 	float: right;
-	padding-left:0px;
-	padding-right:0px;
-    line-height: 35px; 
-    font-size:0.7em;  
-}
+
 
 
 
@@ -1588,7 +1561,9 @@ margin-bottom:-20px;
 
 
 }
-
+.navigation ul li{
+font-size:12px;
+}
 
 
 /* .......................................css product images .......................................*/
@@ -1647,16 +1622,17 @@ margin-bottom:-20px;
 	
 
 }
-
+@media screen and (max-width:350px){
+.navigation ul li{
+font-size:10px;
+}
+}
 @media screen and (max-width:320px) {/* ...................................... 320 */
 
 /* .......................................nav bar .......................................*/
 
 
-.navbar li{
 
-	margin-right:12px;	
-}
 
 
 .fa-gift, .fa-envelope, .fa-arrows-h, .fa-tree, .fa-gbp, .fa-cube, .fa-tint, .fa-cutlery{
