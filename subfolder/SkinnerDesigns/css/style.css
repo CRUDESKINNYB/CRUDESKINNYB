@@ -430,18 +430,15 @@ margin-top:0.6em;
 }
 
 .image-text{
-
 padding-top:5px;
 padding-bottom:5px;
-
-
 width:100%;
 background-color:black;
 color:white;
 margin-top:10px;
 margin-bottom:0px;
 text-align:center;
-font-family:lato;
+font-family: 'lato-regular';
 font-size:1em;
 line-height:1.3em;
 }
