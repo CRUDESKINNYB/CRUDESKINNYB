@@ -170,13 +170,15 @@ body a{
 	width:100%;
 	max-height:500px;
 	overflow:hidden;
-	border-bottom: 10px solid #18c1ff;
+	border-bottom: 5px solid black;
+	margin-bottom:20px;
+	
 	
 	
 }
 
  
-#home-page .header, #boards-page .header, #zchair01 .header, #zchair02 .header, #zchair03 .header, #box-page .header, #accessories-page .header, #oboard-page .header, #furniture-page .header, #about-page .header, #contact-page .header, #footstool01 .header, #about-bespoke-page .header, #about-chopping-boards-page .header, #gallery-page .header{
+#zchair04 .header, #frames01 .header, #benches01 .header, #home-page .header, #boards-page .header, #zchair01 .header, #zchair02 .header, #zchair03 .header, #box-page .header, #accessories-page .header, #oboard-page .header, #furniture-page .header, #about-page .header, #contact-page .header, #footstool01 .header, #about-bespoke-page .header, #about-chopping-boards-page .header, #gallery-page .header{
     background-repeat: no-repeat;
     width:100%;
     height: 0;
@@ -229,13 +231,28 @@ body a{
     background-size: cover;
     background-position: center;
 }
-
+#zchair04 .header{
+	background: url(../images/zchairheader.jpg);
+    background-size: cover;
+    background-position: center;
+}
 #footstool01 .header{
 	background: url(../images/footstoolheader.jpg);
     background-size: cover;
     background-position: center;
 }
 
+#benches01 .header{
+	background: url(../images/benchheader.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#frames01 .header{
+	background: url(../images/frameheader.jpg);
+    background-size: cover;
+    background-position: center;
+}
 #box-page .header{
 	background: url(../images/watchlong.jpg);
 	background-size: cover;
@@ -282,64 +299,68 @@ body a{
 
 #contact-page .banner{
 	color: grey;
-
 }
 
 
 
 .navigation{
 	max-width: 1600px;
-	position: absolute;
+	position: fixed;
 	left: 0px;
 	right: 0px;
 	margin:auto;
-}
+	height:80px;
+	background-color:rgba(0, 0, 0, 0.9);
+	z-index:1000;
 
-.navbar{
-	width:1000px;
-	font-size:1em;
-	background-color:rgba(0, 0, 0, 0.3);
-}
 
+}
 
 .navigation ul{
+    list-style: none;
+    float: right;
+    margin: 0;
+    width: 100%;
+    max-width: 1600px;
+}
+
+.navigation ul li{
+ 	float: right;
+	padding-left:10px;
+	padding-right:10px;
+    line-height: 80px;   
+}
+
+.navigation ul li form{
+	margin-top:4px;
+	
+}
+
+.navigation ul li form input[alt]{
+	font-family: 'lato-regular', sans-serif;
+	color:white;
+	font-size:1em;
+
+}
+
+
+
+
+/* .......................................index page........................................*/
+
+#skinner{
 	float:left;
-	text-align:right;
-	width:100%;
-	margin:auto;	
-	padding-left:0px;
-	padding-right:0px;
-	padding-top:15px;
-	padding-bottom:10px;
-}
-
-
-.navbar li{
-	display: inline;
-	margin-right:25px;	
-}
-
-
-#paypal-basket{
-	margin-top:-20px;	
-	margin-right:10px;
-	height:12px;
+	vertical-align:center;
+	padding-left:30px;
+	padding-top:5px;
+	height:100%;
 }
 
 #skinner a{
-	font-family:Raleway;
+	font-family:p22_corinthia;
 	font-weight:100;
-	font-size:1.5em;
-	float:left;
-	vertical-align:center;
-	margin-top:-5px;
-	padding-left:10px;
-}
-
-
-#basket{
-	border-bottom:1px solid white;
-	overflow:hidden;
+	font-size:60px;
+	line-height: 80px; 
 }
 
 
@@ -352,6 +373,7 @@ body a{
 	float:left;  
 	margin-top:auto;
 	margin-bottom:auto;
+	padding-top:40px;
 }
 
 .banner h1{
@@ -367,204 +389,113 @@ margin-top:0.6em;
 	text-shadow: 2px 2px 20px #666666;
 }
 
-/* 
-#newitemarrived{
-	color:white;
-	font-size: calc(20px + 0.3vw);
-	background: rgba(000, 000, 000, 0.6);
-	padding: 5px;
-	margin:auto;
-	margin-top:1em;
-	width:40%;
-	text-decoration:underline;
+
+/* Float */
+.hvr-float {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
- */
+.hvr-float:hover, .hvr-float:focus, .hvr-float:active {
+  -webkit-transform: translateY(-8px);
+  transform: translateY(-8px);
+}
+
+
+
+.image-grid{
+    margin: auto;
+    width: 90%;
+    max-width:1000px;
+
+
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+      margin: auto;
+    width: 100%;
+
+
+
+}
+
+.image-text{
+padding-top:5px;
+padding-bottom:5px;
+width:100%;
+background-color:black;
+color:white;
+margin-top:10px;
+margin-bottom:0px;
+text-align:center;
+font-family: 'lato-regular';
+font-size:1em;
+line-height:1.3em;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 24%;
+  max-width: 24%;
+  padding: 0 4px;
+  
+}
+
+.column img{
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 891px) {
+  .column {
+    flex: 48%;
+    max-width: 48%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+/* ...................................... index page end......................................... */
+
 
 
 
 
 /* .......................................End Header........................................*/
 
-/* .......................................Sub NAv......................................... */
-
-.sub-nav-holder{
-  	position: -webkit-sticky;
- 	 /* position: sticky; */
-  	top: 0;
-	max-width:1010px;
-	background-color:#1eb3fe;
-	text-align:center;
-	margin:auto;
-	z-index:1000;
-	border-top:10px solid #f1f2f1;
-	border-bottom:10px solid #f1f2f1;
-}
-
-.sub-nav li{
-	text-align:center;
-	display:inline-block;
-	margin:10px;
-	font-family:lato-regular;
-	font-weight:100;
-	font-size:1em;
-	height:20px;
-
-}
-
-.sub-nav li a{
-	color:white;
-	display:block;	
-
-
-}
-
-.sub-nav li a:hover {
-	text-decoration:underline;
-	
-}
-.sub-nav li a:active   {
-	text-decoration:underline;
-	
-}
-
-.triangle{
-	display:block;
-	float:left;
-	width:30px;
-	padding-left:50%;
-	margin-left:-15px;
-	margin-top:3px;
-	/*display:none;*/
-	color:black;
-}
-
-
-
-/* .......................................Banner images......................................... */
-
-
-.mainpageinfo {
-	background: url(../images/indexpageinfobanner.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-
-#boards-page .mainpageinfo {
-	background: url(../images/board.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
- 
- #oboard-page .mainpageinfo {
-	background: url(../images/onion-board.jpg);
-    background-size: cover;
-    background-position: center; 
-}
-
-#furniture-page .mainpageinfo {
-	background: url(../images/zchairpageinfobanner.jpg);
-    background-size: cover;
-    background-position: center;    
-}
-
- 
-#box-page .mainpageinfo {
-	background: url(../images/boxbanner.jpg);
-    background-size: cover;
-    background-position: center; 
-}
-
- 
-#accessories-page .mainpageinfo {
-	background: url(../images/waxbanner.jpg);
-    background-size: cover;
-    background-position: center;   
-}
-
-#about-page .mainpageinfo {
-	background: url(../images/300x300/about/27.jpg);
-    background-size: cover;
-    background-position: right;
-    
-}
-
-#oboard-page .mainpageinfo {
-	background: url(../images/onion-board.jpg);
-    background-size: cover;
-    background-position: center; 
-}
-
-#about-bespoke-page .mainpageinfo {
-	background: url(../images/ruler.jpg);
-    background-size: cover;
-    background-position: center; 
-}
-
-#about-chopping-boards-page .mainpageinfo {
-	background: url(../images/300x300/about/27.jpg);
-    background-size: cover;
-    background-position: right; 
-}
-
-/* .......................................Top info banner......................................... */
-
-.mainpageinfo {
-	width:84%;
-	height:200px;
-	max-width:1010px;
-	font-family: 'lato-regular', sans-serif;
-	color:white;
-	text-align: center;	
-	margin:auto;
-	font-size:17px;
-	line-height:22px;
- 	text-shadow:1px 1px 3px rgba(0, 0, 0, 2);
- 	overflow:hidden;
- 	
-}
-
-
-#about-page .mainpageinfo, #about-chopping-boards-page .mainpageinfo{
-	margin-bottom:30px;
+/* .......................................Blue made to order bar......................................... */
+.title-banners{
 	margin-top:10px;
-
-}
-
-#gallery-page .mainpageinfo{
-
-	margin-top:10px;
-}
-
-.centerpageinfo{
-	height:200px;
-}
-
-#pageinfo1, #pageinfo2{
-	width:60%;
-	display:inline-block;
-	padding-left: 15px;
-	padding-right: 15px;
-	position: relative;
-  	top: 40%;
-  	transform: translateY(-50%);
-	/* border:solid red 1px; */
-	overflow:hidden;
-	margin-bottom:100px;
-}
-
-.mainpageinfo p{
+	width:100%;
+	max-width:1010px;
+	height:30px;
+	background-color:black;
+	margin:auto;
 	padding-top:10px;
+	color:white;
+	margin-top:40px;
+	margin-bottom:10px;
+	font-size:20px;
+	text-align:center;
+	margin-bottom:25px;
 }
-
-.product-link-to-info{
-	font-size:150%;
-	line-height:120%;
-	margin-top:20px;
-	height:150px;
-	}
-
 
 
 
@@ -594,10 +525,6 @@ margin-top:0.6em;
 
 
 
-/* .......................................Blue made to order bar......................................... */
-#mtosold{
-	margin-top:10px;
-}
 
 /* .......................................products......................................... */
 .products{
@@ -679,6 +606,7 @@ margin-top:0.6em;
 	line-height:130%;
 }
 
+
 .product_type{
 	font-size:13px;
 	padding-bottom:10px;
@@ -708,20 +636,7 @@ margin-top:0.6em;
 }
 
 
-.sold{
-	width:100%;
-	max-width:1010px;
-	height:30px;
-	background-color:#1eb2fd;
-	margin:auto;
-	padding-top:10px;
-	color:white;
-	margin-top:40px;
-	margin-bottom:10px;
-	font-size:20px;
-	text-align:center;
-	margin-bottom:25px;
-}
+
 
 
 #instock{
@@ -835,6 +750,48 @@ table{
   transform: scale(1.1);
 }
 /* .......................................Products Single......................................... */
+/* ....................................... Lightbox......................................... */
+
+.lightbox {
+	/** Default lightbox to hidden */
+	display: none;
+
+	/** Position and style */
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+}
+
+.lightbox img {
+	/** Pad the lightbox image */
+	max-width: 90%;
+	max-height: 80%;
+	margin-top: 2%;
+}
+
+.lightbox:target {
+	/** Remove default browser outline */
+	outline: none;
+
+	/** Unhide lightbox **/
+	display: block;
+}
+
+
+/* ....................................... Lightbox ends ......................................... */
+
+.column p{
+color:white;
+line-height:50px;
+    font-family: 'lato-bold';
+}
+
+
 /* ...................................... About Page......................................... */
 
 
@@ -971,7 +928,6 @@ margin:auto;
   padding: 15px 10px;
 
 }
-
 
 
 /* .......................................About end......................................... */
@@ -1368,6 +1324,12 @@ margin-top:22%;
 /* .......................................sub nav .......................................*/
 
 
+#skinner a{
+
+	font-size:40px;
+}
+
+
 /* .......................................about banner .......................................*/
 
 .about-banner .fa-gift,.about-banner .fa-envelope,.about-banner .fa-arrows-h,.about-banner .fa-tree{font-size:35px;}
@@ -1428,6 +1390,39 @@ margin-bottom:-20px;
   	top: 45%;
 }
 
+@media screen and (max-width:530px) {/* ...................................... 519 */
+
+#skinner a{
+ display:none;
+}
+
+#skinner{
+ display:none;
+}
+
+.navigation ul{
+
+ list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: nowrap; /* assumes you only want one row */
+}
+
+.navigation ul li{
+
+height:60px;
+line-height:60px;
+
+}
+.navigation{
+	height:60px;
+}
+
+
+
+}
 	
 
 }
@@ -1475,7 +1470,10 @@ margin-bottom:-20px;
 
 /* .......................................css Header .......................................*/
 
+.banner h2{
+	margin-top:-2em;
 
+}
 
 
 }
@@ -1491,44 +1489,12 @@ margin-bottom:-20px;
 
 /* .......................................css Header .......................................*/
 
-
-
-.navbar{
-	width:100%;
-	background-color:rgba(0, 0, 0, 0.3);
-	font-size:1em;
-	height:22px;
+.navigation ul li{
+font-size:10px;
 }
 
 
-.navigation ul{
-	float:left;
-	text-align:center;
-	width:100%;
-	margin:auto;	
-	padding-left:0px;
-	padding-right:0px;
-	padding-top:15px;
-	padding-bottom:10px;
-	
-}
 
-
-.navbar li{
-	margin-right:20px;	
-}
-
-#skinner a{
-	display:none;
-}
-
-#paypal-basket{
-	margin-top:-20px;	
-	margin-right:10px;
-	height:25px;
-	text-align:right;
-	
-}
 
 #home-page .header, #boards-page .header, #zchair01 .header, #zchair02 .header, #zchair03 .header, #box-page .header, #accessories-page .header, #oboard-page .header, #furniture-page .header, #about-page .header, #contact-page .header, #footstool01 .header, #about-bespoke-page .header, #about-chopping-boards-page .header, #gallery-page .header{
     padding-top:132.64%;
@@ -1538,6 +1504,9 @@ margin-bottom:-20px;
 .mainpageinfo {
 	font-size:12px;
 }
+
+
+
 
 
 
@@ -1589,7 +1558,9 @@ margin-bottom:-20px;
 
 
 }
-
+.navigation ul li{
+font-size:12px;
+}
 
 
 /* .......................................css product images .......................................*/
@@ -1648,16 +1619,17 @@ margin-bottom:-20px;
 	
 
 }
-
+@media screen and (max-width:350px){
+.navigation ul li{
+font-size:10px;
+}
+}
 @media screen and (max-width:320px) {/* ...................................... 320 */
 
 /* .......................................nav bar .......................................*/
 
 
-.navbar li{
 
-	margin-right:12px;	
-}
 
 
 .fa-gift, .fa-envelope, .fa-arrows-h, .fa-tree, .fa-gbp, .fa-cube, .fa-tint, .fa-cutlery{
