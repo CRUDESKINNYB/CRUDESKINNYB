@@ -1,11 +1,9 @@
-/* Preload images */
-body:after {
-  content: url(../images/close.png) url(../images/loading.gif) url(../images/prev.png) url(../images/next.png);
-  display: none;
-}
-
-body.lb-disable-scrolling {
+html.lb-disable-scrolling {
   overflow: hidden;
+  /* Position fixed required for iOS. Just putting overflow: hidden; on the body is not enough. */
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
 }
 
 .lightboxOverlay {
@@ -14,7 +12,7 @@ body.lb-disable-scrolling {
   left: 0;
   z-index: 9999;
   background-color: black;
-  filter: progid:DXImageTransform.Microsoft.Alpha(opacity=80);
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
   opacity: 0.8;
   display: none;
 }
@@ -27,13 +25,18 @@ body.lb-disable-scrolling {
   text-align: center;
   line-height: 0;
   font-weight: normal;
+  margin-top:20px;
 }
 
 .lightbox .lb-image {
   display: block;
   height: auto;
   max-width: inherit;
+  max-height: none;
   border-radius: 3px;
+
+  /* Image border */
+  border: 4px solid white;
 }
 
 .lightbox a img {
@@ -42,22 +45,21 @@ body.lb-disable-scrolling {
 
 .lb-outerContainer {
   position: relative;
-  background-color: white;
   *zoom: 1;
   width: 250px;
   height: 250px;
   margin: 0 auto;
   border-radius: 4px;
+
+  /* Background color behind image.
+     This is visible during transitions. */
+  background-color: white;
 }
 
 .lb-outerContainer:after {
   content: "";
   display: table;
   clear: both;
-}
-
-.lb-container {
-  padding: 4px;
 }
 
 .lb-loader {
@@ -76,6 +78,7 @@ body.lb-disable-scrolling {
   height: 32px;
   margin: 0 auto;
   background: url(../images/loading.gif) no-repeat;
+ 
 }
 
 .lb-nav {
@@ -143,11 +146,7 @@ body.lb-disable-scrolling {
   padding-top: 5px;
   *zoom: 1;
   width: 100%;
-  -moz-border-radius-bottomleft: 4px;
-  -webkit-border-bottom-left-radius: 4px;
   border-bottom-left-radius: 4px;
-  -moz-border-radius-bottomright: 4px;
-  -webkit-border-bottom-right-radius: 4px;
   border-bottom-right-radius: 4px;
 }
 
@@ -158,7 +157,7 @@ body.lb-disable-scrolling {
 }
 
 .lb-data {
-  padding: 0 4px;
+  padding: 10px 4px;
   color: #ccc;
 }
 
@@ -173,6 +172,10 @@ body.lb-disable-scrolling {
   font-size: 13px;
   font-weight: bold;
   line-height: 1em;
+}
+
+.lb-data .lb-caption a {
+  color: #4ae;
 }
 
 .lb-data .lb-number {
@@ -197,6 +200,7 @@ body.lb-disable-scrolling {
   -moz-transition: opacity 0.2s;
   -o-transition: opacity 0.2s;
   transition: opacity 0.2s;
+   margin-top:10px;
 }
 
 .lb-data .lb-close:hover {

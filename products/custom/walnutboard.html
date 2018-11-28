@@ -32,18 +32,16 @@
 <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
 
 
-
-
-
-
 <!-- ...............font awesome............... -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 
 
 <!-- ...............css............... -->
 <link href="../../css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="../../css/stylecustom.css" rel="stylesheet" type="text/css" media="all" />
 <link rel="stylesheet" href="../../css/slider.css">
 <link href="css/lightbox.css" rel="stylesheet">
+
 
 
 <!-- ...............fonts............... -->
@@ -58,17 +56,11 @@
 <script src="../../js/float-panel.js"></script>
 <script src="../../js/jquery.js"></script>
 <script src="../../js/jquery.easing.1.3.js"></script>
-
-
-
-
-
+<script src="js/lightbox-plus-jquery.js"></script>
 </head>
 	
 
-
-
-<body id="home-page">
+<body id="walnut_board">
 
 <!-- ............................header starts........................... -->
 <div class="max-width-view">
@@ -107,40 +99,84 @@
 
 
 
+<!--  ..........................content slider starts.......................... -->
+<div class="slider">
+  <input type="radio" name="slider" title="slide1" checked="checked" class="slider__nav"/>
+  <input type="radio" name="slider" title="slide2" class="slider__nav"/>
+  <input type="radio" name="slider" title="slide3" class="slider__nav"/>
+  <input type="radio" name="slider" title="slide4" class="slider__nav"/>
+  <input type="radio" name="slider" title="slide5" class="slider__nav"/>
+  <div class="slider__inner">
+  
+    <div id="sliderimgsmall" class="slider__contents"><i class="slider__image fa fa-tree"></i>
+      <h2 class="slider__caption">American Black Walnut</h2>
+      <p class="slider__txt">Bespoke made to order boards in a wide variety of styles.</p>
+      <img src="images/standard.svg" alt=""/>
+      <img src="images/classic.svg" alt=""/>
+      <img src="images/slimline.svg" alt=""/>
+      <img src="images/japanese.svg" alt=""/>
+	<p class="slider__txt slidelink1">Click the boxes to find out about further styles we offer.</p>
+    </div>
+    
+    <div class="slider__contents"><i class="slider__image fa fa-cube"></i>
+      <h2 class="slider__caption">Standard & Classic</h2>
+       <img  src="images/standard.svg" alt=""/>
+      <p class="slider__txt2">Our Classic End Grain Chopping Boards feature a clean, handleless design. Perfect for leaving in a fixed position in your kitchen.</p>
+      <img src="images/classic.svg"  alt=""/>
+      <p class="slider__txt2">Our Classic End Grain Chopping Boards feature twin recessed handles. This style is great if you need a little more mobility with your board.</p>
+    </div>
+    
+    <div class="slider__contents"><i class="slider__image fa fa-cube"></i>
+      <h2 class="slider__caption">Slimline & Japanese</h2>
+       <img src="images/slimline.svg"  alt=""/>
+      <p class="slider__txt2">Our Slimline End Grain Chopping Boards are great for portability or where space is limited. Its narrow design makes storage an viable option.</p>
+      <img src="images/japanese.svg"  alt=""/>
+      <p class="slider__txt2">Our Japanese End Grain Chopping Boards feature sleek tapered edges. Not only a unique design but also a great statment piece to have in your home.</p>
+    </div>
+    
+    <div class="slider__contents"><i class="slider__image fa fa-cube"></i>
+       <h2 class="slider__caption">Double & Double Plain</h2>
+       <img src="images/double.svg"  alt=""/>
+      <p class="slider__txt2">Our Double Sided End Grain Chopping Boards feature twin slotted handles, this eases mobility of the board around the kitchen. The double sided nature means you can use both sides of the board.</p>
+      <img src="images/double_plain.svg"  alt=""/>
+      <p class="slider__txt2">Our Double Plain End Grain Chopping Boards feature the same two sided work surface without the handles.</p>
+    </div>
+    
+    <div class="slider__contents"><i class="slider__image fa fa-arrows-alt"></i>
+      <h2 class="slider__caption">Other Options</h2>
+      <p class="slider__txt">Cant find the right product for you?</p>
+      <p class="slider__txt">We offer a bespoke service in order to create the perfect products for our clients.</p>
+      <p class="slider__txt">We can offer a variation of sizes and designs to suit your needs. We aslo offer advice if you are stuck choosing the prefect product for you.</p>
+      <p class="slider__txt slidelink1"><a href="../../contact" data-hover="Home">Please contact us here: SkinnersDesigns@gmail.com</a>
+    </div>
+    
+  </div>
+</div><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-46156385-1', 'cssscript.com');
+  ga('send', 'pageview');
+
+</script>
+<!--  ..........................content slider ends.......................... -->
 
 
+<!--  ..........................Images start.......................... -->
 
 <div class="imgcontainer" >
 	<div class="imgwrap"><a href="images/customwalnut/1.jpg" data-lightbox="image-1"><img src="images/customwalnut/1.jpg" alt=""/></a></div>
 	<div class="imgwrap"><a href="images/customwalnut/2.jpg"  data-lightbox="image-1"><img src="images/customwalnut/2.jpg" alt=""/></a></div>
-	<div class="imgwrap"><a href="images/customwalnut/3.jpg"  data-lightbox="image-1"><img src="images/customwalnut/3.jpg" alt=""/></a></div>
 </div>
 
-<script src="../../js/lightbox-plus-jquery.js"></script>
+<!--  ..........................Images end.......................... -->
 
+<!--  ..........................Info starts.......................... -->
 
-<div class="about-banner">
-	<ul>
-		<li><i class="fa fa-tree"></i><p>American Black Walnut</p></li>
-		<li><i class="fa fa-arrows-h"></i><p>X-Large / Large / Medium / Small</p></li>
-		<li><i class="fa fa-cube"></i><p>Classic / Japanese Style</p></li>
-		<li><i class="fa fa-gbp"></i><p>£50 - £200</p></li>
-	</ul>
-</div>
 <div class="aboutboard">
-		<h2>Made To Order - American Black Walnut</h2>
-		
-		<p>A beautiful hand crafted end grain chopping board available in a multitude of sizes and styles.
-		
-		<p>Available options:</p>
-		<p>-</p>
-		<p class="bold">Classic Style</p>
-		<p>Our classic Style features straight sides with ergonomic recesses (handles) to help lift the board.</p>
-		<p>-</p>
-		<p class="bold">Japanese Style</p>
-		<p>Our Japanese style boards offers a elegant look with sleek tapered edges.</p>
-		<p>-</p>
-		<p class="bold">Sizes available (40mm thick)</p>
+		<p class="bold">Sizes available:</p>
 		
 		<p>Extra Large Plus: 605mm x 468mm</p>
 		<p>Extra Large: 550mm x 413mm</p>
@@ -148,21 +184,23 @@
 		<p>Medium: 440mm x 303mm</p>
 		<p>Small: 385mm x 248mm</p>
 		<p>Extra Small: 330mm x 193mm</p>
+		<p class="bold">Please note: Handmade boards have a tolerance of +/-20mm in each dimension. If you need an exact size please contact us before placing an order.</p>
 		
 		<p>-</p>
+		<p>All boards are 40mm thick. Slimline boards are 30mm thick.</p>
+		<p>-</p>
 		
-		<p>If you would an alternate size or thickness that is not listed here please contact me via email to discuss your needs.</p>
+		<p>If you would an alternate size or thickness that is not listed here please contact us via email to discuss your needs.</p>
 		<p>Sanded to a smooth glossy surface and treated with food safe mineral oil to protect the board.</p> 
 		<p>For further protection a special blend on mineral oil and beeswax is applied to the surface. This makes the end grain chopping board more durable, more resilient to water as well as enhancing the glossy finish.</p>
-		<p>Mineral Oil and Chopping Board Wax is also available to buy to ensure your board stays in the best condition.</p>
+		<p>Mineral Oil and Chopping Board Wax is recommended to ensure your board stays in the best condition and is available to purchase.</p>
 		
 		<p id="product-number">Product Number: #CustomWalnut</p>
 		<p>-</p>
 		<p class="bold">Disclaimer</p>
-		<p id="product-approximate">Due to the handmade nature of these products, all measurements are approximate. Due to timber being a natural material; appearance, colour and grain patterns will vary between all products. For more information please contact us and for further examples of colour and grain variations please visit out galley page.</p>
-		
-		
+		<p id="product-approximate">Due to the handmade nature of these products and timber being a natural material, all measurements are approximate. Appearance, colour and grain patterns will vary between all products. For more information please contact us and for further examples of colour and grain variations please visit out galley page.</p>		
 	<div>
+	
 			<form target="_self" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 			<input type="hidden" name="cmd" value="_s-xclick">
 			
@@ -179,7 +217,9 @@
 	<option value="Extra Small">Extra Small £57.15 GBP</option>
 </select> </td></tr>
 <tr><td><input type="hidden" name="on1" value="Style">Style</td></tr><tr><td><select name="os1">
+	<option value="Standard">Standard </option>
 	<option value="Classic">Classic </option>
+	<option value="Slimline">Slimline </option>
 	<option value="Japanese">Japanese </option>
 </select> </td></tr>
 </table>
@@ -187,36 +227,30 @@
 <input type="image" src="http://skinnerdesigns.co.uk/images/basket.png"  name="submit" alt="PayPal – The safer, easier way to pay online!">
 <img alt=""  src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
 </form>
-	
-	
 </div>
 
+<!--  ..........................Info ends.......................... -->
 
 
 
 
 
-
+<!--  ..........................lower slider starts.......................... -->
 	
-	
-	
-		
 </div>
-
-
-
-
-
-
-
-
-
-
-
-          
+<div id="slider">
+<figure>
+<a href="../../accessories/wax"><img src="../../../images/itemslideshowwax.jpg" alt></a>
+<a href="../../accessories/engaving"><img src="../../../images/itemslideshowengraving.jpg" alt></a>
+<a href="../../accessories/oil"><img src="../../../images/itemslideshowoil.jpg" alt></a>
+<a href="../../../dessert_boards"><img src="../../../images/itemslideshowdessert.jpg" alt></a>
+<a href="../../accessories/wax"><img src="../../../images/itemslideshowwax.jpg" alt></a>
+</figure>
+</div>
+             <!--  ..........................lower slider ends.......................... -->
             </div><!-- wrapper -->
-     
-        
+
+
 
 
 <div class="footerlinks">
@@ -234,7 +268,7 @@
 
 
 
-
+</div>
 
 
 
