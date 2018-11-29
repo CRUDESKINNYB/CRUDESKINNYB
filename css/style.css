@@ -749,9 +749,11 @@ line-height:1.3em;
 
 .instagramgallery {
 	width:100%;
-	max-width:500px;
+	max-width:1000px;
 	margin: auto;
 	 text-align: center;
+	 padding-left:10px;
+	 padding-right:10px;
 }
 /* ...................................... index page end......................................... */
 
