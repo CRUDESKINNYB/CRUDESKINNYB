@@ -730,6 +730,14 @@ line-height:1.3em;
   vertical-align: middle;
 }
 
+#instagram_widget{
+margin: auto;
+  width: 100%;
+  max-width:1000px;
+
+
+  }
+
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 891px) {
   .column {
@@ -752,8 +760,9 @@ line-height:1.3em;
 	max-width:1000px;
 	margin: auto;
 	 text-align: center;
-
 }
+
+
 /* ...................................... index page end......................................... */
 
 
