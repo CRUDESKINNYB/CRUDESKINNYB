@@ -420,7 +420,7 @@ body a{
 }
 
  
-#beech_board .header, #acherry_board .header, #echerry_board .header, #ash_board .header, #oak_board .header, #walnut_board .header, #zchair04 .header, #frames01 .header, #benches01 .header, #home-page .header, #boards-page .header, #zchair01 .header, #zchair02 .header, #zchair03 .header, #box-page .header, #accessories-page .header, #oboard-page .header, #furniture-page .header, #about-page .header, #contact-page .header, #footstool01 .header, #about-bespoke-page .header, #about-chopping-boards-page .header, #gallery-page .header{
+#chest01 .header, #table01 .header, #beech_board .header, #acherry_board .header, #echerry_board .header, #ash_board .header, #oak_board .header, #walnut_board .header, #zchair04 .header, #frames01 .header, #benches01 .header, #home-page .header, #boards-page .header, #zchair01 .header, #zchair02 .header, #zchair03 .header, #box-page .header, #accessories-page .header, #oboard-page .header, #furniture-page .header, #about-page .header, #contact-page .header, #footstool01 .header, #about-bespoke-page .header, #about-chopping-boards-page .header, #gallery-page .header{
     background-repeat: no-repeat;
     width:100%;
     height: 0;
@@ -573,8 +573,17 @@ body a{
     background-size: cover;
 }
 
+#table01 .header{
+	background: url(../images/tableheader.jpg);
+    background-size: cover;
+    background-position: center;
+}
 
-
+#chest01 .header{
+	background: url(../images/chestheader.jpg);
+    background-size: cover;
+    background-position: center;
+}
 
 
 .navigation{
@@ -970,11 +979,22 @@ font-style:italic;
 	text-align:center;
 }
 
+.imgwrap_full{
+	display:inline-block;
+	height:100%;
+	width:80%;
+	overflow:hidden;
+	text-align:center;
+}
+
 .imgwrap img{
 	width:100%;
 	padding:10px;	
 }
-
+.imgwrap_full img{
+	width:100%;
+	padding:10px;	
+}
 
 
 .aboutboard{
@@ -1653,7 +1673,7 @@ margin-bottom:-20px;
 }
 
 
-.imgwrap{
+.imgwrap, .imgwrap_full{
 	height:100%;
 	width:90%;
 }
